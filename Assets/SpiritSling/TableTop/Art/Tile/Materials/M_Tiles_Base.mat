@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5637220233109512481
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Tiles_Base
+  m_Shader: {fileID: -6465566751694194690, guid: d00cfa20db22360448613e7bed0b2a78,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Color_Randomness _Colors_Mask _DirtEdgeMultiplier _DirtNoiseStrength
+    _DirtSize _DirtVariationTexture _Falloff_Noise_Texture _Smoothness _Vertex_Colors_Intensity
+    _VerticalWiggleAmount _WiggleAmount _WiggleSpeed _Y_CutOut
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Colors_Mask:
+        m_Texture: {fileID: 2800000, guid: 0955e5d3e711eb0458d292de3b111730, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Texture:
+        m_Texture: {fileID: 2800000, guid: 6d816f6358b5c834499df79915662a99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtVariationTexture:
+        m_Texture: {fileID: 2800000, guid: c04a6b981566d0d438900a0faeffd622, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Falloff_Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 0955e5d3e711eb0458d292de3b111730, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MossHeight:
+        m_Texture: {fileID: 2800000, guid: 0955e5d3e711eb0458d292de3b111730, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 1b88f0547f1c53540a5bade7f07c346f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_3b8c632bd5294c009b05f6b6bded0194_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_b649d88f35584c268c708f9ba63af9e4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0e03f4d103b44f10bbb743d434957b97_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1b88f0547f1c53540a5bade7f07c346f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1ddc3cdf70b849309309df72cccacbb0_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c04a6b981566d0d438900a0faeffd622, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_69fcf65f4906424e9b9018ddd54da793_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - SHADERGRAPH_PREVIEW: 0
+    - _AO: 0.5
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _CastShadows: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorLightness: 1
+    - _Color_Randomness: 0.7
+    - _Colors_Mask_Intensity: 0.5
+    - _Colors_Mask_Power: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DirtAmount: 0
+    - _DirtEdgeMultiplier: 0
+    - _DirtNoiseStrength: 0.4
+    - _DirtSize: 0.47
+    - _DirtTransition: 0.1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _ENABLEHEIGHTCLIP: 0
+    - _ENABLESHAKE: 0
+    - _Emission_Intentisy: 0.7
+    - _EnableShake: 0
+    - _EnableShake_1: 0
+    - _EnableWiggle: 0
+    - _EnvironmentReflections: 1
+    - _Falloff_Intensity: 2
+    - _Falloff_Noise_Intensity: 0.3
+    - _Falloff_Noise_Tiling: 1
+    - _Falloff_Scale: 1.4
+    - _Fuzz_Amount: 1
+    - _Fuzz_Color_Intensity: 3
+    - _Fuzz_Fresnel_Power: 3
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _MULTIPLYEMISSIVE: 1
+    - _Metallic: 0
+    - _NormalStrength: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ShakeFrequency: 0.2
+    - _ShakeIntensity: 0.1
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _UnderWaterAmount: 0
+    - _Vertex_Colors_Intensity: 0
+    - _VerticalShakeFrequency: 0.1
+    - _VerticalShakeIntensity: 0.1
+    - _VerticalWiggleAmount: 0.05
+    - _WiggleAmount: 0.25
+    - _WiggleSpeed: 0.05
+    - _WorkflowMode: 1
+    - _World_mapped_Diffuse: 1
+    - _Y_CutOut: 0.05
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Ambient: {r: 0.15686275, g: 0.23529412, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.33815846, g: 0.54901963, b: 0.25858822, a: 1}
+    - _Color_2: {r: 0.51091594, g: 0.7169812, b: 0.27394092, a: 0}
+    - _Color_Randomness: {r: 0.55, g: 0.75, b: 0, a: 0}
+    - _Colors_Mask_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Colors_Mask_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Diffuse_Texture_Tiling: {r: 0.8, g: 0.8, b: 0, a: 0}
+    - _DirtColor: {r: 0.754717, g: 0.6635679, b: 0.5446778, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissive_Override: {r: 0.5283019, g: 0.3513706, b: 0.3513706, a: 0}
+    - _Falloff_Color: {r: 0.9328155, g: 1, b: 0.6745283, a: 1}
+    - _Fuzz_Color: {r: 0.5111902, g: 0.8396226, b: 0.20198467, a: 0}
+    - _RandomSeed: {r: 1, g: 1, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tint_Color_Bright: {r: 0.81050456, g: 0.990566, b: 0.62144, a: 1}
+    - _Tint_Color_Dark: {r: 0.42598423, g: 0.836478, b: 0, a: 0}
+  m_BuildTextureStacks: []

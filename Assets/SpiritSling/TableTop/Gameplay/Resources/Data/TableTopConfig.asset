@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618b71a817e241f38b39737f2b8d7285, type: 3}
+  m_Name: TableTopConfig
+  m_EditorClassIdentifier: 
+  defaultGameSettings:
+    seed: 42
+    showAvatars:
+      _value: 1
+    timePhase: 20
+    roundsBeforeCloc: 1
+    isClocRandom:
+      _value: 0
+    clocRandomCount: 6
+    lavaDamage: 1
+    kodamaStartHealthPoints: 4
+    kodamaMoveRange: 2
+    kodamaSummonRange: 1
+    kodamaSummonPerTurn: 1
+    kodamaHasImmunity:
+      _value: 1
+    slingshotStartHealthPoints: 2
+    slingshotDamage: 1
+    slingBallShotsPerTurn: 1
+    lootboxStartHealthPoints: 1
+    lootboxDamage: 1
+    lootboxStartCount: 3
+    lootboxMinCount: 2
+    lootBoxSpawnCountPerTurn: 2
+    lootBoxHeightDownAmount: 2
+    lootBoxHeightDownStrongAmount: 3
+    lootBoxHeightUpAmount: 2
+    lootBoxHeightUpStrongAmount: 3
+    lootBoxNormalStrongChances: 3
+  phaseDelay: 1.5
+  gridConfig: {fileID: 11400000, guid: c013a874fdba74f2eb731f5492615531, type: 2}
+  cellCliffYOffset: -0.022
+  pawnPlacementAnimationDuration: 0.3
+  boardSettingsPerPlayerCount:
+  - playerCount: 1
+    boardRotation: 00000000
+  - playerCount: 2
+    boardRotation: 00000000b4000000
+  - playerCount: 3
+    boardRotation: 000000005a000000a6ffffff
+  - playerCount: 4
+    boardRotation: 000000005a000000b4000000a6ffffff
+  pawnEjectionDistance: 0.05
+  kodamaUnsnapDistance: 0.1
+  kodamaUnsafeRange: 1
+  slingBallHightlightColor: {r: 1, g: 1, b: 1, a: 1}
+  slingBallDisabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  slingBallValidPullDistanceColor: {r: 0, g: 1, b: 0, a: 1}
+  slingBallInvalidPullDistanceColor: {r: 1, g: 0, b: 0, a: 1}
+  slingBallRestoreDelay: 1
+  slingBallMinDistance: 0.66
+  slingBallMaxDistance: 0.14
+  slingBallToleranceDistance: 0.12
+  slingSettingsPerHeight:
+  - height: -1
+    range: 0
+    maxVelocity: 0
+  - height: 0
+    range: 2
+    maxVelocity: 1.06
+  - height: 1
+    range: 3
+    maxVelocity: 1.18
+  - height: 2
+    range: 4
+    maxVelocity: 1.3
+  - height: 3
+    range: 5
+    maxVelocity: 1.41
+  - height: 4
+    range: 6
+    maxVelocity: 1.52
+  - height: 5
+    range: 6
+    maxVelocity: 1.62
+  slingBallSpeed: 1.2
+  playersColors:
+  - {r: 1, g: 0.35220027, b: 0.2588235, a: 1}
+  - {r: 0.3066038, g: 0.5807373, b: 1, a: 1}
+  - {r: 1, g: 0.8816934, b: 0, a: 1}
+  - {r: 0.71709836, g: 0.23113209, b: 1, a: 1}
+  playerBoardPrefabs:
+  - {fileID: 7428575045732837246, guid: 49cf0a4f76154004fbd8a8fb9495e654, type: 3}
+  - {fileID: 1703235224239136324, guid: a0e568d68fe22054aba7ba8ff887ac4c, type: 3}
+  - {fileID: 6779851484712318924, guid: 8b7fd2e00bcff8943920cdaf6fece910, type: 3}
+  - {fileID: 7918737919168299675, guid: 0b8e158bf2bb2e84bb8db9a43fd40b95, type: 3}
+  KodamaVisualPrefabs:
+  - {fileID: 939764923553004884, guid: f0743c7dd67090c4d9748f8252e39f68, type: 3}
+  - {fileID: 6782159216903167494, guid: 38af82693f19f5e4da4204cb9b592bfe, type: 3}
+  - {fileID: 3890867382596222210, guid: 7786e67a5740e2142b55866410b2b23b, type: 3}
+  - {fileID: 8692921557868245124, guid: 757b0acb2b49e2d4fab8eb8e122a8060, type: 3}
+  HealthPointVisualPrefabs:
+  - {fileID: 8090912902244513528, guid: 58493dbfe2148d6408da9be3cf4ca0a9, type: 3}
+  - {fileID: 3879648018925595932, guid: d4e792c1cfec55848b728144711eee28, type: 3}
+  - {fileID: 2882970913638753475, guid: c4685b806580378439099096aa003023, type: 3}
+  - {fileID: 8732371207224453981, guid: c7fe33a7e9e5b4b43a1d5357846ab8e7, type: 3}
+  HighlightVFXPrefabs:
+  - {fileID: 911641681991707213, guid: 773b0c14ff415864990645f90326468b, type: 3}
+  - {fileID: 3373057176520705799, guid: 93e29b4eeac6dd54199496b5df79d58e, type: 3}
+  - {fileID: 9064438499482619104, guid: 89920c9210f798542a44dd6f985e35e1, type: 3}
+  - {fileID: 8895537578079411784, guid: 1102ecfaeb06e8e47a5c0e6ab3438dbf, type: 3}
+  PawnDeathVFX:
+  - {fileID: 6147958300187808229, guid: 1d01c6c297952a94ca00800ad922f5cc, type: 3}
+  - {fileID: 8572837275182726350, guid: 55e0ea3af60906d4a8077c71402e6c19, type: 3}
+  - {fileID: 1075283080498729501, guid: 8bb2141042bb8284f93321fa9045f655, type: 3}
+  - {fileID: 8820506455448807633, guid: 59504d081d4473c47ad9a7d4e5adef30, type: 3}
+  PawnSmokeTrailVFX: {fileID: 4848357334500092604, guid: 8cf6bc8279fb17244adf2ef23b2540dd,
+    type: 3}
+  PawnDropVFX: {fileID: 8960226396446659475, guid: 51d75ec6a630bd246ba202bd3e88c794,
+    type: 3}
+  PawnSpawnVFX: {fileID: 8960226396446659475, guid: f38cbfcad34174c4daea580b8756ad40,
+    type: 3}
+  PawnStartTileDecalVFX: {fileID: 6222500314904115432, guid: 4590738a4c16fb047a8c006a8c7de0f8,
+    type: 3}
+  DamageVFXColor: {r: 1, g: 1, b: 1, a: 1}
+  HealVFXColor: {r: 0, g: 1, b: 0.14507627, a: 1}
+  MagicWristBandPrefabs:
+  - {fileID: 7505639428538195224, guid: fd86188b2a1a718489eac7abf7b5dca3, type: 3}
+  - {fileID: 7505639428538195224, guid: 9f8ca2028652e6b4d9d76545cd23f1fd, type: 3}
+  - {fileID: 7505639428538195224, guid: d7750c130ecde9847841c8f348f4283f, type: 3}
+  - {fileID: 7505639428538195224, guid: 42a312c87f51cc744b82cced3add7cfc, type: 3}
+  MagicWristBandLineRendererMaterials:
+  - {fileID: 2100000, guid: 986bd0c1d8393064e8df0db9169658fc, type: 2}
+  - {fileID: 2100000, guid: 330325faf51e1f6448a38cec66406584, type: 2}
+  - {fileID: 2100000, guid: a7576245709bc694db4366e0b0b58ea1, type: 2}
+  - {fileID: 2100000, guid: b3852eff52e7e804c9e40d8944e0c7b3, type: 2}
+  WristBandFarAwayMinDistance: 1
+  ShakeIntensity: 1.5
+  ShakeFrequency: 0.1
+  VerticalShakeFrequency: 0.1
+  StoneInteractionRange: 0.2
+  StoneSkipRange: 0.05
+  StoneSkipMinStayDuration: 1.5
+  LootBoxEffectDelays:
+  - 3
+  - 3
+  - 4.25
+  - 4.25
+  - 3
+  - 3
+  - 3
+  - 3
+  rigDistance: 0.8
+  playerboardDistance: 0.2
+  playerboardScale: 1
+  playerboardYOffset: 0
+  tipsDisplayTime: 6
+  tipsList:
+  - You win when your Flame Spirit is the last one standing.
+  - You can skip a phase by touching the levitating stone near your flame.
+  - When you shoot a tile, it decreases by one step.
+  - After a few rounds, the board slowly shrinks.
+  - You can push back multiple targets simultaneously if they are aligned. But only
+    the first one will receive damages.
+  - Whenever your Flame Spirit takes damages, it gains immunity up to the beginning
+    of your next turn.
+  - If your Flame Spirit falls into water, it will take a damage and then will respawn
+    elsewhere in the arena.
+  - If you defeat a player, all of their slings are also destroyed.
+  - The higher a sling is, the farther it can shoot.
+  - Harmonic Relics are powerful weapons.
+  - Golden Harmonic Relic are more powerful than the other ones.
+  - Slings can't take more than 2 damages. Hopefully when one is destroyed, it will
+    respawn on your personal board.
+  - You can move your Slings only next to your Flame Spirit.
+  - If your Flame Spirit is pushed on a Harmonic Relic, you'll use it immediately.
+  - Only your Flame Spirit (not your Slings) can play musical instruments.
+  - The symbol on the levitating stone and on your hand indicate in which phase you
+    currently are.
+  - A new Harmonic Relic will appear as soon as there are no more in the arena.
+  - As if beckoned by those who had gone before, I half floated between the titanic
+    snowdrifts, quivering and afraid, into the sightless vortex of the unimaginable.
+  - 'A player''s turn has 3 phases: MOVE your Flame Spirit, SUMMON a Sling, SHOOT
+    an adversary!'
+  - Avoid water... Your Flame Spirit hates it!
+  - You can move a Sling  from the arena, only when all of them have been previously
+    summoned from your personal board.

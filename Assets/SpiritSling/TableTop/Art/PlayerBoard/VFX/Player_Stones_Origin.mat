@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_Stones_Origin
+  m_Shader: {fileID: -6465566751694194690, guid: 7d7a113c9d67b1544b0aadca834e6232,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2008
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: _AlphaClip _BaseMap _BlinkStartTime _CastShadows _CracksTiling
+    _Cull _DEBUG _Highlight _HighlightFalloffPower _RuneBaseColor _RuneMask _RuneNoiseSpeed
+    _RuneNoiseTexture _RuneNoiseTiling _StoneCracksTexture _StoneShake _StoneShakeTexture
+    _Surface _Texture _TimerMask _ZTest _ZWriteControl
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: a3cab8b3c460bfb4eb6d069954e4c55e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RuneMask:
+        m_Texture: {fileID: 2800000, guid: d5245f72ebd60a943936e4398cf94f7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RuneNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 83efdf3448854214fbb0a9352e78a02e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0c02705ffaaf4a4cbb1cc4840e784565_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 882c9291562c01048bfd9aca3be7c026, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_12693ff909dd44d6898d3310e9fa527d_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 882c9291562c01048bfd9aca3be7c026, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2a08d3badd994561bede36d43ea94b68_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 40acf15913671614e8c932b307997c99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_377d98d913754969b885420cee653333_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e01015f7c43110d4ca168d78df6d3dc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7a0927310810499dbf01c21fe9d732f3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4db63578ee43d2b4d8ebcaf67b00bc23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_828812ae7c8640eeaab70c9b0f226224_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_886728dce15c4d27885628a0a8710f0e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 83efdf3448854214fbb0a9352e78a02e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9bb86cc034824dc698dbca4dbece23d3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 83efdf3448854214fbb0a9352e78a02e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_aeb9985e30b148be85c90a6af51e8f40_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 882c9291562c01048bfd9aca3be7c026, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f2d032c760c2426da4b0b81376efd753_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4db63578ee43d2b4d8ebcaf67b00bc23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fe51c192ae604a899b2ed8970beb64f1_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4db63578ee43d2b4d8ebcaf67b00bc23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneCracksTexture:
+        m_Texture: {fileID: 2800000, guid: 1e5bb978a010bb741ada8934384d1761, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneShakeTexture:
+        m_Texture: {fileID: 2800000, guid: 40acf15913671614e8c932b307997c99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: a3cab8b3c460bfb4eb6d069954e4c55e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_69611f00e2f745f6a0a6db1f65e1aece_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_69fcf65f4906424e9b9018ddd54da793_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4e712c5e610830344a5fdf54980f0b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TimerMask:
+        m_Texture: {fileID: 2800000, guid: 8a5cc0d04762b8146b6ca8d7ed51a848, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - SHADERGRAPH_PREVIEW: 0
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlinkStartTime: 0.5
+    - _CastShadows: 1
+    - _ColorIntensity: 2
+    - _CracksGlow: 4
+    - _CracksTiling: 2.5
+    - _Cull: 2
+    - _DEBUG: 0
+    - _DstBlend: 0
+    - _Glow: 2
+    - _HOVER: 0
+    - _Highlight: 1
+    - _HighlightFalloffPower: 3
+    - _QueueControl: 0
+    - _QueueOffset: 8
+    - _RuneNoiseSpeed: 0.25
+    - _RuneNoiseTiling: 10
+    - _SrcBlend: 1
+    - _StoneActivation: 0
+    - _StoneShake: 1
+    - _StoneTime: 0
+    - _Surface: 0
+    - _Timer_Limit: -0.008
+    - _Tonemap: 0.5
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _PlayerColor: {r: 0.5707547, g: 1, b: 0.92961913, a: 0}
+    - _RuneBaseColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8188845107487352409
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

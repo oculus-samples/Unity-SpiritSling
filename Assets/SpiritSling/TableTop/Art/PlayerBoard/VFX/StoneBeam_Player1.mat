@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5737014222806042494
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneBeam_Player1
+  m_Shader: {fileID: -6465566751694194690, guid: a22c4917d3e8b2c47993df5ec2fec980,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 7932916fd991fe1408850294069d4239, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _RECEIVE_SHADOWS_OFF
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
+  - DepthOnly
+  m_LockedProperties: _Transparency_Multiplier
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 3891a8bfabd34e84bba95f7cf6e22994, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DstBlend: 1
+    - _Falloff: 1
+    - _Global_Intensity_boost: 50
+    - _Rays_Thickness: 1
+    - _SrcBlend: 5
+    - _StoneActivation: 1
+    - _Thickness: 0.2
+    - _Transparency_Multiplier: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.99999994, g: 0.11237693, b: 0, a: 1}
+    - _Color1: {r: 2.7577293, g: 0.64150345, b: 0.40325284, a: 1}
+    - _Color2: {r: 1.4905664, g: 0.39807823, b: 0.021092882, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3631638785244623342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1055407165093968284, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055407165093968284, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485334130356761664, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3506478269438316994, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd899d4abb944614cbb20e4e6cabe4b1, type: 2}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.b
+      value: 0.6178717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.g
+      value: 1.99874
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.r
+      value: 5.239553
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.b
+      value: 0.16709967
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.g
+      value: 0.77844083
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548521035776917155, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key1.r
+      value: 1.3120418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437628521101565963, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_KodamaDeath_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532477408151396455, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532477408151396455, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532477408151396455, guid: 3f351601519dabb409f3d8a76267834b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f351601519dabb409f3d8a76267834b, type: 3}

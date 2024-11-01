@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-25839022977019506
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_UI_Player2_Color
+  m_Shader: {fileID: -6465566751694194690, guid: dd4cd18fec38aa342892657f7a1194a1,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 778c69f047f56174a8d7bbc60be431b0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ENABLE_VFX
+  - _INVERT_DISTORTION_FOR_BACKFACES
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Top_Color_Intensity: 1.805
+    - _ZTest: 4
+    m_Colors:
+    - _Inner_Color: {r: 0.31468755, g: 0.2941177, b: 0.7921569, a: 1}
+    - _Inner_Line_Color: {r: 0.7877358, g: 0.978609, b: 1, a: 1}
+    - _Outer_Color: {r: 0.3066038, g: 0.8220263, b: 1, a: 1}
+    - _Top_Color: {r: 0.4575472, g: 0.9453342, b: 1, a: 1}
+    - _VFXColor: {r: 0.25769317, g: 1, b: 0.01415092, a: 0}
+  m_BuildTextureStacks: []

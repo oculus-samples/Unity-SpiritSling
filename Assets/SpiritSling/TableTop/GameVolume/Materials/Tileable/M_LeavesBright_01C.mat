@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_LeavesBright_01C
+  m_Shader: {fileID: -6465566751694194690, guid: 0d5efd1314fb17a47b95ff1c9a5b668a,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 2e139088d3322bb4b9446bbee6ed2c37, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USECUTHEIGHT
+  m_InvalidKeywords:
+  - _USE_WIND
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _USE_WIND: 1
+    - _Wind_Power: 0.5
+    m_Colors:
+    - _NoiseScale: {r: 1, g: 1, b: 0, a: 0}
+    - _PivotOffset: {r: 0, g: 0.015, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8186077660416459212
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

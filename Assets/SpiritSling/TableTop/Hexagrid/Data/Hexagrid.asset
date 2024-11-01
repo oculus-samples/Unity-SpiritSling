@@ -1,0 +1,2500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a811c97e3efb459cbc567c3687b6039d, type: 3}
+  m_Name: Hexagrid
+  m_EditorClassIdentifier: 
+  radius: 5
+  cellSize: 0.041
+  yShift: 0
+  minHeight: -1
+  maxHeight: 4
+  parts:
+  - partName: Start_Up
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.1
+      height1Percent: 0.7
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.2
+      height2Percent: 0.1
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.1
+      height1Percent: 0.7
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.15
+      height2Percent: 0
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0.15
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.3
+      height4Percent: 0.7
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0.5
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+  - partName: Mountain_Hills
+    weight: 1
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.4
+      height4Percent: 0.6
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.7
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.3
+      height4Percent: 0.7
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Mountain_Valley
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.4
+      height4Percent: 0.6
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0.15
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0.15
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0.15
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+  - partName: Holes
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.7
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.15
+      height2Percent: 0.15
+      height3Percent: 0.7
+      height4Percent: 0
+  - partName: Canyon
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.6
+      height2Percent: 0.2
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.3
+      height4Percent: 0.5
+  - partName: KOTH
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.3
+      height4Percent: 0.7
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.7
+      height4Percent: 0.1
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+  - partName: The_island
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.2
+      height2Percent: 0.6
+      height3Percent: 0.2
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.2
+      height2Percent: 0.6
+      height3Percent: 0.2
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.2
+      height2Percent: 0.6
+      height3Percent: 0.2
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.2
+      height2Percent: 0.6
+      height3Percent: 0.2
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.6
+      height1Percent: 0.4
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+  - partName: V
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0.15
+      height1Percent: 0.7
+      height2Percent: 0.15
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.2
+      height3Percent: 0.6
+      height4Percent: 0.2
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.1
+      height3Percent: 0.5
+      height4Percent: 0.4
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.1
+      height3Percent: 0.5
+      height4Percent: 0.4
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.1
+      height3Percent: 0.5
+      height4Percent: 0.4
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 1
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.1
+      height3Percent: 0.5
+      height4Percent: 0.4
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.4
+      height2Percent: 0.5
+      height3Percent: 0.1
+      height4Percent: 0
+  - partName: Rim
+    weight: 2
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Random_Chaos
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.3333334
+      height1Percent: 0.16666667
+      height2Percent: 0.16666667
+      height3Percent: 0.16666667
+      height4Percent: 0.16666667
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.3333334
+      height1Percent: 0.16666667
+      height2Percent: 0.16666667
+      height3Percent: 0.16666667
+      height4Percent: 0.16666667
+    - q: -1
+      r: 2
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0.05
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0.2
+      height3Percent: 0.15
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.3333334
+      height1Percent: 0.16666667
+      height2Percent: 0.16666667
+      height3Percent: 0.16666667
+      height4Percent: 0.16666667
+  - partName: Split
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0.5
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0.5
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0.5
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.7
+      height4Percent: 0.3
+  - partName: 2012
+    weight: 6
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Pillars
+    weight: 0
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0.4
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0.4
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0.4
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0.4
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.6
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0.4
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Plains
+    weight: 2
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.5
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Plateau
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.25
+      height3Percent: 0.5
+      height4Percent: 0.25
+  - partName: Ramp
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 1
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 1
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 1
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.5
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.5
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.5
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+  - partName: Altar
+    weight: 0
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0.7
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0.7
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0.7
+      height0Percent: 0.3
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.3
+      height4Percent: 0.7
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.7
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.3
+      height3Percent: 0.7
+      height4Percent: 0
+  - partName: River
+    weight: 3
+    rotationEnabled: 0
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 1
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 1
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 1
+      height4Percent: 0
+  - partName: Basique One
+    weight: 2
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.25
+      height2Percent: 0.25
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 1
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0.2
+      height0Percent: 0.8
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.5
+      height3Percent: 0.5
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0.2
+      height0Percent: 0.8
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.4
+      height3Percent: 0.6
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0.5
+      height4Percent: 0.5
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0
+      height2Percent: 0.4
+      height3Percent: 0.6
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 1
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0.2
+      height0Percent: 0.8
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.8
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0.2
+      height0Percent: 0.8
+      height1Percent: 0
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+  - partName: Basique 2
+    weight: 6
+    rotationEnabled: 1
+    elements:
+    - q: 1
+      r: -2
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.5
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0.25
+      height1Percent: 0.25
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: -1
+      heightLavaPercent: 0
+      height0Percent: 0
+      height1Percent: 0.7
+      height2Percent: 0.2
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: -1
+      r: 0
+      heightLavaPercent: 0.2
+      height0Percent: 0.3
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 0
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.2
+      height2Percent: 0.3
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 0
+      heightLavaPercent: 0.2
+      height0Percent: 0.5
+      height1Percent: 0.3
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.4
+      height2Percent: 0.1
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.2
+      height2Percent: 0.2
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: 0
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.5
+      height2Percent: 0.3
+      height3Percent: 0
+      height4Percent: 0
+    - q: 1
+      r: 1
+      heightLavaPercent: 0
+      height0Percent: 0.3
+      height1Percent: 0.2
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: -3
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.3
+      height1Percent: 0.4
+      height2Percent: 0.3
+      height3Percent: 0
+      height4Percent: 0
+    - q: -2
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.2
+      height1Percent: 0.3
+      height2Percent: 0.5
+      height3Percent: 0
+      height4Percent: 0
+    - q: -1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.4
+      height1Percent: 0.5
+      height2Percent: 0.1
+      height3Percent: 0
+      height4Percent: 0
+    - q: 0
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.2
+      height2Percent: 0.2
+      height3Percent: 0.1
+      height4Percent: 0
+    - q: 1
+      r: 2
+      heightLavaPercent: 0
+      height0Percent: 0.5
+      height1Percent: 0.5
+      height2Percent: 0
+      height3Percent: 0
+      height4Percent: 0
