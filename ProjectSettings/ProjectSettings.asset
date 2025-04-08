@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Meta
   productName: Spirit Sling Tabletop
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -54,7 +54,7 @@ PlayerSettings:
   mipStripping: 1
   numberOfMipsStripped: 0
   numberOfMipsStrippedPerMipmapLimitGroup: {}
-  m_StackTraceTypes: 010000000000000001000000000000000100000001000000
+  m_StackTraceTypes: 010000000100000000000000000000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   iosUseCustomAppBackgroundBehavior: 0
@@ -139,7 +139,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.2.0-pre.97
+  bundleVersion: 1.2.1
   preloadedAssets:
   - {fileID: 11400000, guid: 6d937a4991df5df44a32041f2e2e6d62, type: 2}
   metroInputSource: 0
@@ -162,17 +162,17 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.SpiritSlingTabletop
+    Android: com.DefaultCompany.Spirit-Sling-Tabletop
     Standalone: com.DefaultCompany.Spirit-Sling-Tabletop
-    iPhone: com.Unity-Technologies.com.unity.template.urp-blank
+    iPhone: com.DefaultCompany.Spirit-Sling-Tabletop
   buildNumber:
     Standalone: 0
     VisionOS: 0
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 14
-  AndroidMinSdkVersion: 29
+  AndroidBundleVersionCode: 29
+  AndroidMinSdkVersion: 32
   AndroidTargetSdkVersion: 32
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -266,8 +266,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: cohere
+  AndroidKeystoreName: '{inproject}: SpiritSling.keystore'
+  AndroidKeyaliasName: spiritsling
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -275,7 +275,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -842,7 +842,8 @@ PlayerSettings:
     Standalone: 0
   il2cppCompilerConfiguration:
     Android: 2
-  il2cppCodeGeneration: {}
+  il2cppCodeGeneration:
+    Android: 0
   managedStrippingLevel:
     EmbeddedLinux: 1
     GameCoreScarlett: 1

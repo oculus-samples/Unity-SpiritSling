@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using Application = UnityEngine.Application;
 
-public class GameSettings : ScriptableObject, IPostprocessBuildWithReport
+public class GameSettings : ScriptableObject
 {
     [Header("Store settings")]
     [SerializeField] private PlatformSettings platformSettings;
@@ -63,7 +63,6 @@ public class GameSettings : ScriptableObject, IPostprocessBuildWithReport
         photonAppSettings.AppSettings.AppIdVoice = photonAppIdVoice;
 
         // Other settings
-        PlayerSettings.SetIl2CppCompilerConfiguration(BuildTargetGroup.Android, Il2CppCompilerConfiguration.Master);
         PlayerSettings.Android.bundleVersionCode++;
         AssetDatabase.SaveAssets();
     }
@@ -75,14 +74,6 @@ public class GameSettings : ScriptableObject, IPostprocessBuildWithReport
         // Build
         string path = Path.Combine(Directory.GetParent(Application.dataPath).ToString(), $"{applicationIdentifier}_{PlayerSettings.bundleVersion}.apk");
         BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, path, BuildTarget.Android, BuildOptions.None);
-    }
-
-    int IOrderedCallback.callbackOrder { get; }
-
-    void IPostprocessBuildWithReport.OnPostprocessBuild(BuildReport report)
-    {
-        bundleVersionCode++;
-        EditorUtility.SetDirty(this);
     }
 
     [CustomEditor(typeof(GameSettings))]
