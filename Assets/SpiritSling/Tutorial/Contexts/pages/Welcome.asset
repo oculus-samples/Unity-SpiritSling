@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Welcome
+  m_EditorClassIdentifier: 
+  m_displayName: Welcome
+  m_hierarchyName: Welcome
+  m_context: {fileID: 11400000, guid: 9cccd0a81def13441a74a74c24329d3b, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1000
+  m_overrideMarkdownText: "\nSpirit Sling is a social mixed reality (MR) app created
+    to show developers how to build exciting tabletop games that give users a reason
+    to be together in MR. With Meta's new and improved Avatars, and the power of
+    mixed reality, users can now place a fun tabletop experience on a surface and
+    invite a friend into their space to play with them.\n\nThis codebase is available
+    as both a reference and template for mixed reality projects. You can also test
+    the game on the <a href=\"https://www.meta.com/en-gb/experiences/spirit-sling-tabletop/26801347429479910/\">Meta
+    Horizon Store</a>.\n\n\n# Mechanics and Features\nDiscover some of the mechanics,
+    features, and techniques used to deliver this unique and engaging multiplayer
+    experience. For more information, visit the <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/\">documentation</a>.\n\n-
+    <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#contextual-board-placement-mixed-reality-utility-kit--other-tips\">Contextual
+    game board placement</a>: Using Scene API and MRUK, Spirit Sling accesses real-world
+    object data to ensure that the game board is immediately accessible to users\u2019
+    hands and maintains visibility above real-world objects.\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#creating-a-multiplayer-session\">Creating
+    and joining a multiplayer session</a>: Spirit Sling supports players joining
+    public or private multiplayer sessions. After the Platform SDK is initialized,
+    the app creates a public or private multiplayer room by calling Fusion.NetworkRunner.StartGame(...)
+    or GroupPresence.Set(...), respectively. A public session is joined by first
+    subscribing to the NetworkEvents.OnSessionListUpdate event, then NetworkRunner.JoinSessionLobby(...)and
+    finally finding and joining the first non-full public room calling NetworkRunner.StartGame(...).
+    For a private lobby, the app reads ApplicationLifecycle.GetLaunchDetails() to
+    accept the invite. The app also subscribes to the ApplicationLifecycle.SetLaunchIntentChangedNotificationCallback()
+    callback to listen for the launch intent changes.\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#intractable-virtual-objects-using-isdk-and-physics-to-enhance-gameplay\">Hand
+    tracking integration</a>: Spirit Sling supports hand tracking as a primary form
+    of input when users interact with the gameboard. Hand tracking and Grab interactions
+    can be integrated using Interaction SDK through the Building Blocks tool.\n-
+    <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#using-isdk-to-control-gameplay-elements\">Using
+    Interaction SDK to control gameplay</a>: Users can control and manipulate gameplay
+    elements through the app\u2019s ability to detect grab gestures using the Grabbable,HandGrabInteractable,
+    and GrabInteractable components.\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#manual-board-adjustment-with-hand-tracking\">Game
+    board adjustment with hand tracking</a>: To support an adaptable and comfortable
+    user experience, the game enables users to re-adjust the board after initial
+    placement using the Grabbable component from ISDK and custom One/TwoGrabGameVolumeTransformer
+    components.\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#adding-hand-interaction-to-interface-buttons\">Adding
+    hand interactions to interface buttons</a>: Users can leverage the poke interaction
+    to navigate the game\u2019s user interface. Poke interaction support can be enabled
+    by adding the Poke Interaction building block, creating a SpiritSlingButton script
+    and attaching it to a game object that includes the PokeInteractable component.\n\n\n##
+    How to run the project in Unity\n1. <a href=\"./Documentation/ProjectConfiguration.md\">Configure
+    the project</a> with Meta Quest and Photon\n2. Make sure you're using Unity 2022.3.30.\n3.
+    Make sure you're using one of these devices: Meta Quest 3S, Meta Quest 3, Meta
+    Quest Pro.\n4. Locate the '<a href=\"./Assets/GameSettings.asset\">Assets/GameSettings.asset</a>'
+    file and populate all the empty fields with your own data.  \n4.1. **Application
+    Identifier** is the unique string that identifies your app on Meta Quest Store. 
+    \n4.2. **Meta Quest App ID** is the ID of your app on Meta Quest Store.  \n4.3.
+    Optional: populate **Android Keystore** name and password. Make sure not to store
+    the 'Assets/GameSettings.asset' file in VCS in this case.  \n4.4. **Photon App
+    Id Fusion / Voice**: unique ids obtained in step 1 in the '<a href=\"./Documentation/ProjectConfiguration.md#photon-configuration\">Photon
+    Configuration</a>' section.\n![Game Settings](./Documentation/Images/GameSettings.png)\n\n\n##
+    Project Structure\nThe project is organically structured to distinguish the main
+    components of the MR experience's logic. Main Spirit Sling components:\n- **<a
+    href=\"./Assets/SpiritSling/Common/Networking/Scripts/ConnectionManager.cs\">ConnectionManager</a>**
+    handles the Photon Fusion connection workflows for single and multiplayer sessions.
+    The PhotonConnector logic showcases how a shared multiplayer session is handled
+    via Photon Fusion, how the creation of shared rooms and lobbies work, and how
+    the connection states can be handled accordingly.\n- **<a href=\"./Assets/SpiritSling/TableTop/GameVolume/Scripts/GameVolumeSpawner.cs\">GameVolumeSpawner</a>**
+    handles logic for placing the game board into physical environment. It also ensures
+    that the game board is accessible by hands so the user can readjust the initial
+    placement for a more comfortable experience.\n- **<a href=\"./Assets/SpiritSling/TableTop/Gameplay/Scripts/Tabletop/TabletopGameStateMachine.cs\">TabletopGameStateMachine</a>**
+    controls the flow of the game between different gameplay states.\n- Please visit
+    the <a href=\"https://developers.meta.com/horizon/documentation/unity/spirit-sling/#intractable-virtual-objects-using-isdk-and-physics-to-enhance-gameplay\">Meta
+    Horizon Documentation</a> page for more details on how the game uses Mixed Reality
+    Utility Kit (MRUK), Platform SDK and Meta Interaction SDK (ISDK).\n\n\n# Dependencies\nThis
+    project makes use of the following plugins and software:\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-mr-utility-kit-overview/\">Mixed
+    Reality Utility Kit v74.0.1</a>\n- <a href=\"https://developers.meta.com/horizon/downloads/package/meta-xr-core-sdk\">Meta
+    XR Core SDK v74.0.1</a>\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/\">Meta
+    Interaction SDK v74.0.1</a>\n- <a href=\"https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/\">Meta
+    Avatars SDK v31.0.0</a>\n- <a href=\"https://doc.photonengine.com/fusion/current/getting-started/fusion-intro\">Photon
+    Fusion</a>\n\n"
+  m_overrideMarkdownRoot: ./

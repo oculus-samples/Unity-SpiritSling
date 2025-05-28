@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Project Configuration_Upload to release channel
+  m_EditorClassIdentifier: 
+  m_displayName: Upload to release channel
+  m_hierarchyName: Project Configuration/Upload to release channel
+  m_context: {fileID: 11400000, guid: 27520a6aaf0e71a488f10ecddcb37494, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: '## Upload to release channel
+
+    In order to have colocation
+    working using the shared spatial anchors, you will first need to upload an initial
+    build to a release channel.
+
+    For instructions you can go to the <a href="https://developers.meta.com/horizon/resources/publish-release-channels-upload/">developer
+    center</a>. Then to be able to test with other users you will need to add them
+    to the channel, more information in the <a href="https://developers.meta.com/horizon/resources/publish-release-channels-add-users/">Add
+    Users to Release Channel</a> topic.
+
+
+    Once the initial build is uploaded
+    you will be able to use any development build with the same application Id, no
+    need to upload every build to test local changes.
+
+
+
+    ## Headset permissions
+
+    When
+    you first launch the application a permission popup will ask to share point cloud,
+    you must say yes if you want to use colocation.
+
+    If you answered no, from
+    this application or another application using shared point cloud data, you can
+    go on device to
+
+    **Settings > Privacy > Device Permissions > Share Point
+    Cloud Data**. It must be enabled.
+
+
+    The application should also have Spatial
+    Data permission enabled, this can be verified on device here: **Settings -> Apps
+    -> Permissions -> Spatial Data**
+
+'
+  m_overrideMarkdownRoot: .\Documentation/

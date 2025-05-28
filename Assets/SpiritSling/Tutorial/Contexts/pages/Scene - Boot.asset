@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Scene - Boot
+  m_EditorClassIdentifier: 
+  m_displayName: Scene - Boot
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: ae7a280d6f047324d8318ffb05c59ae1, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: Boot Scene
+    Description: This is the entry point of the project. Here we initialize all the
+      core systems that are required for the lifetime of the application.
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: 8183aabf10d518f4bb9bb33b0a9a4364, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: Platform
+    Description: This gameobject will handle the entitlment and handle platform features
+      like destination, users, and friends.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 8183aabf10d518f4bb9bb33b0a9a4364, type: 3}
+      m_name: Platform
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: PoolManager
+    Description: Manages the pools that are children of the object. These pools are
+      setup with pre-created amount of objects to be reused. It currently has a pool
+      for SFX and for the game tiles.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 8183aabf10d518f4bb9bb33b0a9a4364, type: 3}
+      m_name: PoolManager
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: CameraRig
+    Description: The CameraRig is the key GameObject that handles the player tracking.
+      It also includes the comprehensive interaction, from the Meta XR Interaction
+      SDK, to handle all the interaction the user can do in the application.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 8183aabf10d518f4bb9bb33b0a9a4364, type: 3}
+      m_name: CameraRig
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: AudioManager
+    Description: Manages the audio and music of the game. It references the Audio
+      Mixer and uses the SFX pool.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: 8183aabf10d518f4bb9bb33b0a9a4364, type: 3}
+      m_name: AudioManager
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

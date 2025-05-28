@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Project Configuration_Application Configuration
+  m_EditorClassIdentifier: 
+  m_displayName: Application Configuration
+  m_hierarchyName: Project Configuration/Application Configuration
+  m_context: {fileID: 11400000, guid: 27520a6aaf0e71a488f10ecddcb37494, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: "## Application Configuration\nTo run the project and use
+    the platform services we need to create an application on the <a href=\"https://developers.meta.com/horizon/\">Meta
+    Quest Developer Center</a>.\n\nTo run on device you will need a Quest application,
+    and to run in editor you will need a Rift application. The following sections
+    will describe the configuration required for the application to run.\n\n\n###
+    Data Use Checkup\nTo use the features from the Platform we need to request which
+    kind of data is required for the application. This can be found in the Data Use
+    Checkup section of the application.\n\n![alt text](../Documentation/Images/DataUseCheckup.png){style=\"width:40%;height:40%\"}\n\nAnd
+    configure the required Data Usage:\n\n![alt text](../Documentation/Images/DataUseCheckupOptions.png){style=\"width:40%;height:40%\"}\n\n-
+    User Id: Oculus Username\n- User Profile: Oculus Username\n\nOnce completed you
+    will need to submit the request, click the submit button at the bottom. data
+    use checkup submit\n\nTo allow sharing of Spatial Anchors the Platform Service
+    Cloud Storage needs to be enabled as well. To enable this go to All Platform
+    Services and then click Add Service Under Cloud Storage\n\n![alt text](../Documentation/Images/PlatformServices.png)\n\nThen
+    Enable Automatic Cloud Backup and press submit\n\n![alt text](../Documentation/Images/ApplyCloudStorage.png)\n\nSet
+    the Application ID\nWe then need to set the application ID in our project in
+    Unity.\nThe identifier (App ID) can be found in the API section.\n\n![alt text](../Documentation/Images/QuestAppSettings.png)\n\nThen
+    it needs to be placed in the <a href=\"./Assets/Resources/OculusPlatformSettings.asset\">Assets/Resources/OculusPlatformSettings.asset</a>\n\n![alt
+    text](../Documentation/Images/PlatformSettings.png) \n![alt text](../Documentation/Images/PlatformSettingsField.png)\n\n"
+  m_overrideMarkdownRoot: .\Documentation/

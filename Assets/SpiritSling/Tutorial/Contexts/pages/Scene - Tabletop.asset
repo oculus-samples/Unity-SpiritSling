@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f4231a451006409b7afbabdd9f82d, type: 3}
+  m_Name: Scene - Tabletop
+  m_EditorClassIdentifier: 
+  m_displayName: Scene - Tabletop
+  m_hierarchyName: 
+  m_context: {fileID: 11400000, guid: 6e006968d5423044cb4c80cedae5517e, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 0
+  <References>k__BackingField:
+  - Header: Tabletop Scene
+    Description: 'Tabletop is the main scene that where the core logic of the project
+      resides.
+
+      Open it and dig right into it.'
+    Reference:
+      m_referenceType: 0
+      m_obj: {fileID: 102900000, guid: bc78f35bb1f5adb47b4432b8ffcba8a9, type: 3}
+      m_classType: 
+      m_scene: {fileID: 0}
+      m_name: 
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: GameVolumeSpawner
+    Description: Handles logic for placing the game board into physical environment.
+      It also ensures that the game board is accessible by hands so the user can
+      readjust the initial placement for a more comfortable experience.
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: bc78f35bb1f5adb47b4432b8ffcba8a9, type: 3}
+      m_name: TableTopMenu/GameVolumeSpawner
+      m_path: 
+      m_guid: 
+      m_instanceID: 0
+  - Header: TabletopGameStateMachine
+    Description: 'Controls the flow of the game between different gameplay states
+      for the player. '
+    Reference:
+      m_referenceType: 5
+      m_obj: {fileID: 0}
+      m_classType: 
+      m_scene: {fileID: 102900000, guid: bc78f35bb1f5adb47b4432b8ffcba8a9, type: 3}
+      m_name: TableTopGameStateMachine - Local player
+      m_path: 
+      m_guid: 
+      m_instanceID: 0

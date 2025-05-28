@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4510294d23d964fe59443526f1ca7c4b, type: 3}
+  m_Name: Project Configuration_Photon Configuration
+  m_EditorClassIdentifier: 
+  m_displayName: Photon Configuration
+  m_hierarchyName: Project Configuration/Photon Configuration
+  m_context: {fileID: 11400000, guid: 27520a6aaf0e71a488f10ecddcb37494, type: 2}
+  m_markdownFile: {fileID: 0}
+  m_priority: 1001
+  m_overrideMarkdownText: '## Photon Configuration
+
+    **Note, this is only required
+    to play the app in multiplayer mode.**
+
+
+    To get the sample working, you will
+    need to configure Photon with your own account and applications. The Photon base
+    plan is free.
+
+
+    Visit <a href="https://www.photonengine.com/">photonengine.com</a>
+    and create an account
+
+    From your Photon dashboard, click "Create A New App"
+
+    We
+    will create a "Fusion" app
+
+    First fill out the form making sure to set type
+    to "Photon Fusion". Then click Create.
+
+    Your new app will now show on your
+    Photon dashboard. Click the App ID to reveal the full string and copy the value
+    for each app.
+
+
+    Open your unity project and paste your Fusion App ID in <a
+    href="./Assets/Photon/Fusion/Resources/PhotonAppSettings.asset">Assets/Photon/Fusion/Resources/PhotonAppSettings</a>.
+
+
+    ![alt
+    text](../Documentation/Images/FusionSettings.png)
+
+
+    The Photon Realtime transport
+    should now work. You can check the dashboard in your Photon account to verify
+    there is network traffic.
+
+
+'
+  m_overrideMarkdownRoot: .\Documentation/
