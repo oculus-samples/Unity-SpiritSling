@@ -10,7 +10,7 @@ namespace SpiritSling.Editor
     [InitializeOnLoad]
     public static class DesktopModeMenuItem
     {
-        private const string MENU_NAME = "Cohere/Enable Desktop Mode";
+        private const string MENU_NAME = "SpiritSling/Enable Desktop Mode";
 
         private static bool enabled;
 

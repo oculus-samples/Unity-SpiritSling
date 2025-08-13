@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
-    [CreateAssetMenu(fileName = "HexGrid Config", menuName = "Cohere/TableTop/HexGrid Config")]
+    [CreateAssetMenu(fileName = "HexGrid Config", menuName = "SpiritSling/TableTop/HexGrid Config")]
     public class HexGridConfig : ScriptableObject
     {
         [Header("Grid")]

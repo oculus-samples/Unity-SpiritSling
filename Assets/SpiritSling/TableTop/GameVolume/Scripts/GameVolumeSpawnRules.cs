@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SpiritSling
 {
-    [CreateAssetMenu(fileName = "GameVolumeSpawnRules", menuName = "Cohere/TableTop/GameVolume Spawn Rules")]
+    [CreateAssetMenu(fileName = "GameVolumeSpawnRules", menuName = "SpiritSling/TableTop/GameVolume Spawn Rules")]
     public class GameVolumeSpawnRules : ScriptableObject
     {
         // distance from the player's head to the board center

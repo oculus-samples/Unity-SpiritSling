@@ -8,7 +8,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Tabletop core variables
     /// </summary>
-    [CreateAssetMenu(fileName = "TableTop Config", menuName = "Cohere/TableTop/TableTop Config")]
+    [CreateAssetMenu(fileName = "TableTop Config", menuName = "SpiritSling/TableTop/TableTop Config")]
     public class TabletopConfig : ScriptableObject
     {
         // Singleton

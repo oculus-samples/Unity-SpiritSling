@@ -47,7 +47,7 @@ namespace SpiritSling.Editor
             }
         }
 
-        [MenuItem("Cohere/Play From Boot #p")] // Shortcut: Shift + P
+        [MenuItem("SpiritSling/Play From Boot #p")] // Shortcut: Shift + P
         private static void PlayFromBoot()
         {
             if (!EditorApplication.isPlaying)

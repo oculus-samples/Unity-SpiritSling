@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
-    [CreateAssetMenu(fileName = "UI Config", menuName = "Cohere/TableTop/UI Config")]
+    [CreateAssetMenu(fileName = "UI Config", menuName = "SpiritSling/TableTop/UI Config")]
     public class UIConfig : ScriptableObject
     {
         [Header("UI")]

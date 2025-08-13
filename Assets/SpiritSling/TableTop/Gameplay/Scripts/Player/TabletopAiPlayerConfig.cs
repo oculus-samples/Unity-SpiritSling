@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SpiritSling
 {
-    [CreateAssetMenu(fileName = "TableTopAiPlayerConfig", menuName = "Cohere/TableTop/TableTop AI Player Config")]
+    [CreateAssetMenu(fileName = "TableTopAiPlayerConfig", menuName = "SpiritSling/TableTop/TableTop AI Player Config")]
     public class TabletopAiPlayerConfig : ScriptableObject
     {
         [Header("General")]

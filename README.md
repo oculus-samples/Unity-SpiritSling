@@ -17,7 +17,7 @@ Discover some of the mechanics, features, and techniques used to deliver this un
 
 ## How to run the project in Unity
 1. [Configure the project](./Documentation/ProjectConfiguration.md) with Meta Quest and Photon
-2. Make sure you're using Unity 2022.3.30.
+2. Make sure you're using Unity 2022.3.52.
 3. Make sure you're using one of these devices: Meta Quest 3S, Meta Quest 3, Meta Quest Pro.
 4. Locate the '[Assets/GameSettings.asset](./Assets/GameSettings.asset)' file and populate all the empty fields with your own data.  
 4.1. **Application Identifier** is the unique string that identifies your app on Meta Quest Store.  
