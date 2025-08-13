@@ -41,6 +41,20 @@ This project makes use of the following plugins and software:
 - [Meta Avatars SDK v31.0.0](https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/)
 - [Photon Fusion](https://doc.photonengine.com/fusion/current/getting-started/fusion-intro)
 
+# Getting the code
+
+First, ensure you have Git LFS installed by running this command:
+
+```sh
+git lfs install
+```
+
+Then, clone this repo using the "Code" button above, or this command:
+
+```sh
+git clone https://github.com/oculus-samples/Unity-SpiritSling.git
+```
+
 # License
 The majority of Spirit Sling is licensed under [MIT LICENSE](./LICENSE), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and [Photon SDK](./Assets/Photon/LICENSE), are licensed under their respective licensing terms.
 
