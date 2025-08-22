@@ -174,7 +174,7 @@ namespace SpiritSling
                 _creationInfo.features = CAPI.ovrAvatar2EntityFeatures.Preset_Default;
                 var entityInputManager = OvrAvatarManager.Instance.gameObject.GetComponent<OvrAvatarInputManager>();
                 SetInputManager(entityInputManager);
-                var lipSyncInput = FindObjectOfType<OvrAvatarLipSyncContext>();
+                var lipSyncInput = FindAnyObjectByType<OvrAvatarLipSyncContext>();
                 SetLipSync(lipSyncInput);
                 gameObject.name = "LocalAvatar";
             }

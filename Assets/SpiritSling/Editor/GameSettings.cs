@@ -38,7 +38,7 @@ public class GameSettings : ScriptableObject
         productName = PlayerSettings.productName;
         version = PlayerSettings.bundleVersion;
         bundleVersionCode = PlayerSettings.Android.bundleVersionCode;
-        applicationIdentifier = PlayerSettings.GetApplicationIdentifier(BuildTargetGroup.Android);
+        applicationIdentifier = PlayerSettings.GetApplicationIdentifier(NamedBuildTarget.Android);
         metaQuestAppID = platformSettings.GetType()
             .GetField("ovrMobileAppID", BindingFlags.Instance | BindingFlags.NonPublic)?
             .GetValue(platformSettings).ToString();
@@ -55,7 +55,7 @@ public class GameSettings : ScriptableObject
         PlayerSettings.productName = productName;
         PlayerSettings.bundleVersion = version;
         PlayerSettings.Android.bundleVersionCode = bundleVersionCode;
-        PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, applicationIdentifier);
+        PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, applicationIdentifier);
         platformSettings.GetType()
             .GetField("ovrMobileAppID", BindingFlags.Instance | BindingFlags.NonPublic)
             .SetValue(platformSettings, metaQuestAppID);
@@ -87,6 +87,7 @@ public class GameSettings : ScriptableObject
         {
             PlayerSettings.Android.bundleVersionCode++;
             bundleVersionCode = PlayerSettings.Android.bundleVersionCode;
+            EditorUtility.SetDirty(this);
         }
 
         AssetDatabase.SaveAssets();

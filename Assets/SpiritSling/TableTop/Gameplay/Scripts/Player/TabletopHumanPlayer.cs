@@ -52,13 +52,13 @@ namespace SpiritSling.TableTop
             do
             {
                 yield return null;
-                settingsHolder = FindObjectOfType<TabletopGameSettingsHolder>();
+                settingsHolder = FindAnyObjectByType<TabletopGameSettingsHolder>();
             }
             while (settingsHolder == null);
 
             if (settingsHolder.GameSettings.showAvatars)
             {
-                FindObjectOfType<CustomAvatarSpawnerFusion>().SpawnAvatar();
+                FindAnyObjectByType<CustomAvatarSpawnerFusion>().SpawnAvatar();
             }
         }
 

@@ -102,7 +102,7 @@ namespace SpiritSling.TableTop
 
             Settings = Config.defaultGameSettings;
 
-            var settingsHolder = FindObjectOfType<TabletopGameSettingsHolder>();
+            var settingsHolder = FindAnyObjectByType<TabletopGameSettingsHolder>();
             if (settingsHolder)
             {
                 Settings = settingsHolder.GameSettings;

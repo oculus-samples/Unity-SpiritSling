@@ -103,7 +103,7 @@ namespace SpiritSling
         private bool GetRig()
         {
             if (hardwareRig == null || !hardwareRig.gameObject.activeSelf)
-                hardwareRig = FindObjectOfType<OVRCameraRig>();
+                hardwareRig = FindAnyObjectByType<OVRCameraRig>();
 
             if (hardwareRig == null)
                 return false;

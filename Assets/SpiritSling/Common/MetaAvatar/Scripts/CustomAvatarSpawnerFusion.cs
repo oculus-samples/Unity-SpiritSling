@@ -85,7 +85,7 @@ namespace SpiritSling
         {
             if (_networkRunner == null)
             {
-                _networkRunner = FindObjectOfType<NetworkRunner>();
+                _networkRunner = FindAnyObjectByType<NetworkRunner>();
             }
 
             // Spawn Avatar

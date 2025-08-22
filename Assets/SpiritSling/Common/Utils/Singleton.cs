@@ -32,7 +32,7 @@ namespace SpiritSling
                     Debug.Assert(
                         !_shuttingDown, string.Format(
                             "Warning: you are trying to create {0} on application quit", typeof(T)));
-                    instance = FindObjectOfType<T>();
+                    instance = FindFirstObjectByType<T>(FindObjectsInactive.Include);
                     if (instance == null)
                     {
                         var obj = new GameObject(typeof(T).Name);

@@ -41,7 +41,6 @@ namespace SpiritSling
             var callbacks = new PermissionCallbacks();
             callbacks.PermissionDenied += PermissionCallbacks_PermissionDenied;
             callbacks.PermissionGranted += PermissionCallbacks_PermissionGranted;
-            callbacks.PermissionDeniedAndDontAskAgain += PermissionCallbacks_PermissionDeniedAndDontAskAgain;
 
             Permission.RequestUserPermission(Permission.Microphone, callbacks);
 #endif
@@ -59,12 +58,6 @@ namespace SpiritSling
         }
         
 #if UNITY_ANDROID
-        private void PermissionCallbacks_PermissionDeniedAndDontAskAgain(string permissionName)
-        {
-            Log.Debug($"AskMicrophonePermission: {permissionName} PermissionDeniedAndDontAskAgain");
-            IsReady = true;
-        }
-
         private void PermissionCallbacks_PermissionGranted(string permissionName)
         {
             Log.Debug($"AskMicrophonePermission: {permissionName} PermissionGranted");

@@ -56,14 +56,14 @@ MonoBehaviour:
     by adding the Poke Interaction building block, creating a SpiritSlingButton script
     and attaching it to a game object that includes the PokeInteractable component.\n\n\n##
     How to run the project in Unity\n1. <a href=\"./Documentation/ProjectConfiguration.md\">Configure
-    the project</a> with Meta Quest and Photon\n2. Make sure you're using Unity 2022.3.52.\n3.
+    the project</a> with Meta Quest and Photon\n2. Make sure you're using Unity 6000.0.50.\n3.
     Make sure you're using one of these devices: Meta Quest 3S, Meta Quest 3, Meta
     Quest Pro.\n4. Locate the '<a href=\"./Assets/GameSettings.asset\">Assets/GameSettings.asset</a>'
-    file and populate all the empty fields with your own data.  \n4.1. **Application
+    file and populate all the empty fields with your own data.  \n  * **Application
     Identifier** is the unique string that identifies your app on Meta Quest Store. 
-    \n4.2. **Meta Quest App ID** is the ID of your app on Meta Quest Store.  \n4.3.
+    \n  * **Meta Quest App ID** is the ID of your app on Meta Quest Store.  \n  *
     Optional: populate **Android Keystore** name and password. Make sure not to store
-    the 'Assets/GameSettings.asset' file in VCS in this case.  \n4.4. **Photon App
+    the 'Assets/GameSettings.asset' file in VCS in this case.  \n  * **Photon App
     Id Fusion / Voice**: unique ids obtained in step 1 in the '<a href=\"./Documentation/ProjectConfiguration.md#photon-configuration\">Photon
     Configuration</a>' section.\n![Game Settings](./Documentation/Images/GameSettings.png)\n\n\n##
     Project Structure\nThe project is organically structured to distinguish the main

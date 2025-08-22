@@ -183,7 +183,7 @@ namespace SpiritSling
         {
             position = Vector3.zero;
             rotation = Quaternion.identity;
-            var filter = LabelFilter.Included(MRUKAnchor.SceneLabels.TABLE | MRUKAnchor.SceneLabels.BED | MRUKAnchor.SceneLabels.COUCH
+            var filter = new LabelFilter(MRUKAnchor.SceneLabels.TABLE | MRUKAnchor.SceneLabels.BED | MRUKAnchor.SceneLabels.COUCH
                                               | MRUKAnchor.SceneLabels.OTHER);
             MRUKAnchor sceneVolume = null;
             var closestDistance = float.MaxValue;
@@ -296,7 +296,7 @@ namespace SpiritSling
                 return false;
             }
 
-            var filter = LabelFilter.Included(MRUKAnchor.SceneLabels.WALL_FACE);
+            var filter = new LabelFilter(MRUKAnchor.SceneLabels.WALL_FACE);
             var closestDist = CurrentRoom.TryGetClosestSurfacePosition(testPosition, out var _, out var _, filter);
             if (closestDist <= distanceBuffer)
             {
@@ -304,13 +304,13 @@ namespace SpiritSling
                 return false;
             }
 
-            var excludeFilter = LabelFilter.Excluded(
+            var excludeFilter = new LabelFilter(~(
                 MRUKAnchor.SceneLabels.WALL_FACE
                 | MRUKAnchor.SceneLabels.FLOOR
                 | MRUKAnchor.SceneLabels.CEILING
                 | MRUKAnchor.SceneLabels.DOOR_FRAME
                 | MRUKAnchor.SceneLabels.WINDOW_FRAME
-                | MRUKAnchor.SceneLabels.WALL_ART);
+                | MRUKAnchor.SceneLabels.WALL_ART));
 
             //reject points that are inside other scene volumes
             if(CurrentRoom.IsPositionInSceneVolume(testPosition, out _, true, distanceBuffer))

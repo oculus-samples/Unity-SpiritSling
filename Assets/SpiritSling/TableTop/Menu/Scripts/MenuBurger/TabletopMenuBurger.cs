@@ -43,7 +43,7 @@ namespace SpiritSling.TableTop
 
         private void Start()
         {
-            _allAnchors = FindObjectsOfType<MenuBurgerAnchor>(true);
+            _allAnchors = FindObjectsByType<MenuBurgerAnchor>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         }
 
         private void OnDestroy()

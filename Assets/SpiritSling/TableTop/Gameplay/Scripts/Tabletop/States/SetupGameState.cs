@@ -199,7 +199,7 @@ namespace SpiritSling.TableTop
         /// </summary>
         private static void MoveLocalHardwareRig(HexCellRenderer spawnCellRenderer)
         {
-            var rig = FindObjectOfType<HardwareRig>();
+            var rig = FindAnyObjectByType<HardwareRig>();
 
             var centerPosition = TabletopGameManager.Instance.GridRenderer.
                 GetCell(TabletopGameManager.Instance.Grid.Get(new Vector3Int(0, 0))).transform.position;

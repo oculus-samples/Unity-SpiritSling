@@ -16,7 +16,7 @@ MonoBehaviour:
   m_hierarchyName: Project Configuration/Upload to release channel
   m_context: {fileID: 11400000, guid: 27520a6aaf0e71a488f10ecddcb37494, type: 2}
   m_markdownFile: {fileID: 0}
-  m_priority: 1001
+  m_priority: 1004
   m_overrideMarkdownText: '## Upload to release channel
 
     In order to have colocation
@@ -33,25 +33,6 @@ MonoBehaviour:
     you will be able to use any development build with the same application Id, no
     need to upload every build to test local changes.
 
-
-
-    ## Headset permissions
-
-    When
-    you first launch the application a permission popup will ask to share point cloud,
-    you must say yes if you want to use colocation.
-
-    If you answered no, from
-    this application or another application using shared point cloud data, you can
-    go on device to
-
-    **Settings > Privacy > Device Permissions > Share Point
-    Cloud Data**. It must be enabled.
-
-
-    The application should also have Spatial
-    Data permission enabled, this can be verified on device here: **Settings -> Apps
-    -> Permissions -> Spatial Data**
 
 '
   m_overrideMarkdownRoot: .\Documentation/

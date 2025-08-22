@@ -17,7 +17,7 @@ MonoBehaviour:
   m_tutorialConfig: {fileID: 11400000, guid: 7e1f81de41afc5446a52e17d2942c883, type: 2}
   m_showBanner: 1
   m_markdownPath: ./README.md
-  m_reduceTitleLevelBy1: 0
+  m_reduceTitleLevelBy1: 1
   m_pageConfigs:
   - SectionTitle: Header
     ShowSectionInContext: 0
@@ -31,8 +31,20 @@ MonoBehaviour:
     ShowSectionInContext: 1
     ShowSectionAsChild: 0
     HideTitle: 0
+  - SectionTitle: How to run the project in Unity
+    ShowSectionInContext: 1
+    ShowSectionAsChild: 0
+    HideTitle: 0
+  - SectionTitle: Project Structure
+    ShowSectionInContext: 1
+    ShowSectionAsChild: 0
+    HideTitle: 0
   - SectionTitle: Dependencies
     ShowSectionInContext: 1
+    ShowSectionAsChild: 0
+    HideTitle: 0
+  - SectionTitle: Getting the code
+    ShowSectionInContext: 0
     ShowSectionAsChild: 0
     HideTitle: 0
   - SectionTitle: License
