@@ -8,11 +8,11 @@
       "hash": "3dd9868902b0da1cd7700c9da725aa9fb1ea5da5"
     },
     "com.meta.xr.mrutilitykit": {
-      "version": "74.0.1",
+      "version": "76.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "74.0.1",
+        "com.meta.xr.sdk.core": "76.0.1",
         "com.unity.textmeshpro": "3.0.6",
         "com.unity.ai.navigation": "1.1.4",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
@@ -20,24 +20,24 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.all": {
-      "version": "74.0.2",
+      "version": "76.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "74.0.1",
-        "com.meta.xr.sdk.audio": "74.0.0",
-        "com.meta.xr.sdk.voice": "74.0.0",
-        "com.meta.xr.simulator": "74.0.0",
-        "com.meta.xr.sdk.haptics": "74.0.1",
-        "com.meta.xr.mrutilitykit": "74.0.1",
-        "com.meta.xr.sdk.platform": "74.0.0",
-        "com.meta.xr.sdk.interaction": "74.0.1",
-        "com.meta.xr.sdk.interaction.ovr": "74.0.2"
+        "com.meta.xr.sdk.core": "76.0.1",
+        "com.meta.xr.sdk.audio": "76.0.0",
+        "com.meta.xr.sdk.voice": "76.0.0",
+        "com.meta.xr.simulator": "76.0.0",
+        "com.meta.xr.sdk.haptics": "76.0.1",
+        "com.meta.xr.mrutilitykit": "76.0.1",
+        "com.meta.xr.sdk.platform": "76.0.0",
+        "com.meta.xr.sdk.interaction": "76.0.1",
+        "com.meta.xr.sdk.interaction.ovr": "76.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.audio": {
-      "version": "74.0.0",
+      "version": "76.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -65,23 +65,23 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.core": {
-      "version": "74.0.1",
+      "version": "76.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.haptics": {
-      "version": "74.0.1",
+      "version": "76.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "74.0.1"
+        "com.meta.xr.sdk.core": "76.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.interaction": {
-      "version": "74.0.1",
+      "version": "76.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -91,17 +91,17 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.interaction.ovr": {
-      "version": "74.0.2",
+      "version": "76.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "74.0.1",
-        "com.meta.xr.sdk.interaction": "74.0.1"
+        "com.meta.xr.sdk.core": "76.0.1",
+        "com.meta.xr.sdk.interaction": "76.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.platform": {
-      "version": "74.0.0",
+      "version": "76.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -110,19 +110,17 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.voice": {
-      "version": "74.0.0",
+      "version": "76.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.simulator": {
-      "version": "74.0.0",
+      "version": "76.0.0",
       "depth": 1,
       "source": "registry",
-      "dependencies": {
-        "com.unity.editorcoroutines": "1.0.0"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
@@ -154,13 +152,6 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework.performance": "3.0.3"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.editorcoroutines": {
-      "version": "1.0.0",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {

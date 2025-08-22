@@ -35,9 +35,9 @@ The project is organically structured to distinguish the main components of the 
 
 # Dependencies
 This project makes use of the following plugins and software:
-- [Mixed Reality Utility Kit v74.0.1](https://developers.meta.com/horizon/documentation/unity/unity-mr-utility-kit-overview/)
-- [Meta XR Core SDK v74.0.1](https://developers.meta.com/horizon/downloads/package/meta-xr-core-sdk)
-- [Meta Interaction SDK v74.0.1](https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/)
+- [Mixed Reality Utility Kit v76.0.1](https://developers.meta.com/horizon/documentation/unity/unity-mr-utility-kit-overview/)
+- [Meta XR Core SDK v76.0.1](https://developers.meta.com/horizon/downloads/package/meta-xr-core-sdk)
+- [Meta Interaction SDK v76.0.1](https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/)
 - [Meta Avatars SDK v31.0.0](https://developers.meta.com/horizon/documentation/unity/meta-avatars-overview/)
 - [Photon Fusion](https://doc.photonengine.com/fusion/current/getting-started/fusion-intro)
 
