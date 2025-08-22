@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3887819867191740198}
   - component: {fileID: 8643738271062628020}
   - component: {fileID: 2041172097974729869}
-  - component: {fileID: 5871265475931972310}
   - component: {fileID: 8756709727841205737}
   - component: {fileID: 4591504922701833261}
+  - component: {fileID: 815824649818090558}
   m_Layer: 0
   m_Name: AvatarSdkManagerStyle2Meta
   m_TagString: Untagged
@@ -179,23 +179,6 @@ MonoBehaviour:
     type: 3}
   _morphAndSkinningComputeShader: {fileID: 7200000, guid: 6593496738c8e8045badc49f0ef2917a,
     type: 3}
---- !u!114 &5871265475931972310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3887819867191740197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6937544d08e2ba34da6ff4ab90cbfd84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bodyTrackingMode: 1
-  _useAsyncBodySolver: 0
-  _enableHipLock: 0
-  _ovrCameraRig: {fileID: 0}
-  _debugDrawTrackingLocations: 0
 --- !u!114 &8756709727841205737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +203,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488cfafa131933046a924063017e8372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &815824649818090558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887819867191740197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb94af3d6d07fd478188e685d6ebb57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bodyTrackingMode: 0
+  _useAsyncBodySolver: 0
+  _enableHipLock: 0
+  _hmd: {fileID: 0}
+  _leftHand: {fileID: 0}
+  _rightHand: {fileID: 0}
 --- !u!1 &6283905550121888166
 GameObject:
   m_ObjectHideFlags: 0

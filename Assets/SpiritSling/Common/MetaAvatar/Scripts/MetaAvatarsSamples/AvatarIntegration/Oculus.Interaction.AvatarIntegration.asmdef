@@ -1,0 +1,23 @@
+{
+    "name": "Oculus.Interaction.AvatarIntegration",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a230cb87a1d3ba4a98bdc0ddae76e6c",
+        "GUID:a92702ab18a2c37469cf92d0212e2d5a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.meta.xr.sdk.avatars",
+            "expression": "29.7.0",
+            "define": "AVATARS_29_7_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}
