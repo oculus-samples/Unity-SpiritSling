@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace SpiritSling
     /// <summary>
     ///     Manager to handle loading and unloading of scenes
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class SceneLoader : MonoBehaviour
     {
         [SerializeField, Tooltip("First Scenes to load on Start")]

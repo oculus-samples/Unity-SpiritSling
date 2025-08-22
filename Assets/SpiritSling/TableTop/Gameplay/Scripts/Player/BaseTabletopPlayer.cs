@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +9,18 @@ using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public abstract class BaseTabletopPlayer : NetworkPlayer
     {
         [Networked]
         public int Countdown { get; set; }
-        
-        [SerializeField]    
+
+        [SerializeField]
         private AudioClip countdownAudioClip;
 
-        
+
         private AudioSource countdownAudioSource;
-        
+
         #region Static fields and properties
 
         public static readonly string[] DEFAULT_PLAYER_NAMES = { "Player 1", "Player 2", "Player 3", "Player 4" };
@@ -50,7 +52,7 @@ namespace SpiritSling.TableTop
         public static TabletopHumanPlayer LocalPlayer { get; protected set; }
 
         public static BaseTabletopPlayer FirstPlayer => TabletopPlayers.First();
-        
+
         #endregion
 
         #region Static methods
@@ -58,7 +60,7 @@ namespace SpiritSling.TableTop
         protected static void AddPlayer(BaseTabletopPlayer player)
         {
             TabletopPlayers.Add(player);
-                        
+
             ReorderPlayers(player);
 
             Log.Info($"Adding new player {player.PlayerId} index {player.Index}");
@@ -152,7 +154,7 @@ namespace SpiritSling.TableTop
                                     TabletopPlayers[0].Index = 2;
                                     TabletopPlayers[1].Index = 0;
                                     TabletopPlayers[2].Index = 1;
-                                    break;                                
+                                    break;
                             }
                         }
                         break;
@@ -199,7 +201,7 @@ namespace SpiritSling.TableTop
         /// <summary>
         /// Index for player (0 = first, 1 = second, etc).
         /// Never change passed the setup phase, even if a player is removed from the list.
-        /// Setup when adding to the player list 
+        /// Setup when adding to the player list
         /// </summary>
         public int Index { get; set; }
 
@@ -242,8 +244,8 @@ namespace SpiritSling.TableTop
         #endregion
 
         #region Member methods
-        
-        
+
+
         public void SetCountdown(int cd)
         {
             RPC_SetCountdown(cd);
@@ -254,7 +256,7 @@ namespace SpiritSling.TableTop
         {
             Countdown = cd;
         }
-        
+
         public void StartCountdown()
         {
             RPC_StartCountdown();
@@ -265,7 +267,7 @@ namespace SpiritSling.TableTop
         {
             countdownAudioSource = AudioManager.Instance.Play(countdownAudioClip, AudioMixerGroups.SFX_Countdown);
         }
-        
+
         public void StopCountdown()
         {
             RPC_StopCountdown();
@@ -277,11 +279,11 @@ namespace SpiritSling.TableTop
             if (countdownAudioSource != null)
             {
                 countdownAudioSource.Stop();
-                countdownAudioSource = null;                
+                countdownAudioSource = null;
             }
 
         }
-        
+
         protected override void OnGameStart()
         {
             base.OnGameStart();
@@ -295,7 +297,7 @@ namespace SpiritSling.TableTop
             AddPlayer(this);
         }
 
-        
+
         [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
         public void RPC_SetDefeated()
         {

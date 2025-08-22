@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Threading.Tasks;
 using Meta.XR.MRUtilityKit;
 using TMPro;
@@ -10,6 +11,7 @@ using UnityEngine.Android;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class RoomRequirementsState : TabletopMenuBaseState
     {
         [SerializeField]

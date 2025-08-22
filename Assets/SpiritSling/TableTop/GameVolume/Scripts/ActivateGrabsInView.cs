@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class ActivateGrabsInView : MonoBehaviour
     {
         private HandGrabInteractable _handGrab;

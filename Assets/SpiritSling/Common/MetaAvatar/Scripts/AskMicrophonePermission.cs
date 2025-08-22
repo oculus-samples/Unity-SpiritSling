@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 #if UNITY_ANDROID
@@ -8,6 +9,7 @@ using UnityEngine.Android;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class AskMicrophonePermission : MonoBehaviour
     {
         public static bool IsReady { get; private set; }

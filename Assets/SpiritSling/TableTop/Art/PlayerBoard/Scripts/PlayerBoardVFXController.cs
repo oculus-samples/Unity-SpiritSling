@@ -1,9 +1,11 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class PlayerBoardVFXController : MonoBehaviour
     {
         [SerializeField]

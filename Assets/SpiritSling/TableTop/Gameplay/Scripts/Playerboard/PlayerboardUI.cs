@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -9,6 +10,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// UI Displayed on the player board
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class PlayerboardUI : MonoBehaviour
     {
         [Header("Game Over")]

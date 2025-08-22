@@ -1,9 +1,11 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public static class BoolExtensions
     {
         public static void IfTrue(this bool b, Action action)

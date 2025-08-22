@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 //https://en.wikipedia.org/wiki/Cubic_Hermite_spline
+using Meta.XR.Samples;
 using UnityEngine;
 using System.Collections;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(LineRenderer))]
     public class HermiteSpline : MonoBehaviour
     {

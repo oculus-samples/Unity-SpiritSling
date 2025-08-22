@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using UnityEngine;
 using static OVRPlugin;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class NetworkWristBandSpawner : NetworkBehaviour
     {
         public GameObject WristBandPrefab;

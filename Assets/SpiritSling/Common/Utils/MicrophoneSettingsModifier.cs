@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Photon.Voice.Unity;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling
     /// <summary>
     /// Utility script to modify microphone processing settings with the controllers. To use only in internal test builds.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class MicrophoneSettingsModifier : MonoBehaviour
     {
         private WebRtcAudioDsp webRtcAudioDsp;

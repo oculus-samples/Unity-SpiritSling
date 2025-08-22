@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using Fusion;
@@ -12,6 +13,7 @@ namespace SpiritSling
     /// <summary>
     /// The NetworkPlayerSpawner is responsible for spawner visual avatars for every players in a room
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class NetworkPlayerSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
         #region Serialized Fields

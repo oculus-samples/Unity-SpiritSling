@@ -1,5 +1,6 @@
 ﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.VFX;
@@ -7,6 +8,7 @@ using static SpiritSling.TableTop.VFXAnimationUtility;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(Animator))]
     public class PlayerBoardStoneController : MonoBehaviour
     {

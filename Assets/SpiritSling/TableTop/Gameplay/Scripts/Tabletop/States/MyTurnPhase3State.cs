@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Local player turn phase 3
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class MyTurnPhase3State : TabletopGameState
     {
         private int shotsCountThisTurn;

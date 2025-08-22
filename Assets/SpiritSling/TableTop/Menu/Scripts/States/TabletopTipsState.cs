@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Linq;
 using TMPro;
@@ -7,6 +8,7 @@ using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class TabletopTipsState : TabletopMenuBaseState
     {
         [Header("Tips menu")]

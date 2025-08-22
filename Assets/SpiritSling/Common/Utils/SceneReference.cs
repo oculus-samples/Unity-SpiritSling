@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor.SceneManagement;
@@ -11,6 +12,7 @@ namespace SpiritSling
     /// <summary>
     ///     class that serialize a scene both as string and as scene object in editor
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [System.Serializable]
     public sealed class SceneReference : ISerializationCallbackReceiver
     {

@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -7,6 +8,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Last state before returning to menu
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class ExitGameState : TabletopGameState
     {
         [SerializeField]

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Threading.Tasks;
 using Fusion;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// This class is responsible for spawning the local player objects on the game board
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class PlayerBoardObjects : NetworkBehaviour
     {
         [SerializeField]

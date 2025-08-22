@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,6 +25,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Tabletop gameplay main class
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class TabletopGameManager : NetworkBehaviour
     {
         // Singleton for the main manager

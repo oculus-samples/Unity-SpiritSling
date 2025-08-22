@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Linq;
 using Fusion;
@@ -7,6 +8,7 @@ using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class TabletopHumanPlayer : BaseTabletopPlayer
     {
         public override string DisplayName => HasStateAuthority ? "Me" : DEFAULT_PLAYER_NAMES[Index];

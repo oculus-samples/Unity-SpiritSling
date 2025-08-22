@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ namespace SpiritSling
     /// The connection manager is responsible for managing the network matchmaking of a particular game type
     /// It manages creating, joining and listing rooms, and handles the associated UI
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class ConnectionManager : Fusion.Behaviour, INetworkRunnerCallbacks
     {
         public static ConnectionManager Instance;

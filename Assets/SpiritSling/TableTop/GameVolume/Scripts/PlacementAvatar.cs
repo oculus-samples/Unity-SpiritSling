@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using Oculus.Avatar2;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class PlacementAvatar : MonoBehaviour
     {
         private static readonly int AVATAR_COLOR_ID = Shader.PropertyToID("u_BaseColorFactor");

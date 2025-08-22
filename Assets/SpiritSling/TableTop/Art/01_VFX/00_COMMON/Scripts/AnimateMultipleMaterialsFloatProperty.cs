@@ -1,7 +1,9 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
+[MetaCodeSample("SpiritSling")]
 [ExecuteInEditMode]
 [RequireComponent(typeof(MeshRenderer))]
 public class AnimateMultipleMaterialsFloatProperty : MonoBehaviour

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ using UnityEditor;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     [DisallowMultipleComponent]
     public class Pool : MonoBehaviour
     {

@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class SceneLoadWhenReady : MonoBehaviour
     {
         public UnityEvent OnReady;

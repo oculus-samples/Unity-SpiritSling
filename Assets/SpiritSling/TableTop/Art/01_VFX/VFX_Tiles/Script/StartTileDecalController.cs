@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using SpiritSling.TableTop;
 using Unity.Mathematics;
@@ -8,6 +9,7 @@ using static SpiritSling.TableTop.VFXAnimationUtility;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class StartTileDecalController : MonoBehaviour
     {
         private static int s_embersAmountProperty = Shader.PropertyToID("_EmbersAmount");

@@ -1,5 +1,6 @@
 ﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// This Controller controls a single HealthPointVFX
     /// </summary>
     /// <seealso cref="VFXHealthPointManager"/>
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(Animator))]
     public class VFXHealthPointController : MonoBehaviour
     {

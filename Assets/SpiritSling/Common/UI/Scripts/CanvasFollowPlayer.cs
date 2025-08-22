@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling
@@ -7,6 +8,7 @@ namespace SpiritSling
     /// <summary>
     /// Makes a canvas following a player head at a certain distance.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class CanvasFollowPlayer : MonoBehaviour
     {
         [SerializeField]

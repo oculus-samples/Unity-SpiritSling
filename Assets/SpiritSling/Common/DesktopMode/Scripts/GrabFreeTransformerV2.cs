@@ -20,6 +20,7 @@
  * limitations under the License.
  */
 
+using Meta.XR.Samples;
 using System.Buffers;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,6 +31,7 @@ namespace Oculus.Interaction
     /// A Transformer that can translate, rotate and scale a transform using any
     /// number of GrabPoints while also constraining the transformation if desired.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class GrabFreeTransformerV2 : MonoBehaviour, ITransformer
     {
         [SerializeField]

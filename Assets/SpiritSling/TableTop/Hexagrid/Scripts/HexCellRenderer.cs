@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -9,6 +10,7 @@ using Random = UnityEngine.Random;
 namespace SpiritSling.TableTop
 {
     /// <summary> Hexagon display and animations </summary>
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class HexCellRenderer : MonoBehaviour
     {

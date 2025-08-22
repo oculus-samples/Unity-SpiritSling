@@ -1,10 +1,12 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 using static SpiritSling.TableTop.VFXAnimationUtility;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class TableTopShaderGlobalPropertySetter : Singleton<TableTopShaderGlobalPropertySetter>
     {
         // Player

@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[MetaCodeSample("SpiritSling")]
 public class MouseInteractor : MonoBehaviour
 {
     // Raycast variables

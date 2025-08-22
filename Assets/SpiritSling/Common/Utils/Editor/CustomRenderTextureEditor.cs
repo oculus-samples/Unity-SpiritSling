@@ -1,10 +1,12 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
 
 // [CustomEditor(typeof(CustomRenderTexture))]
+[MetaCodeSample("SpiritSling")]
 public class CustomRenderTextureEditorUtils
 {
 	// public override void OnInspectorGUI()

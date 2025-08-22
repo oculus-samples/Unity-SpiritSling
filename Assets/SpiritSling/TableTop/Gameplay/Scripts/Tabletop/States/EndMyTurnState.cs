@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Local player ends its turn and ask next player to take the lead
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class EndMyTurnState : TabletopGameState
     {
         public override void Enter()

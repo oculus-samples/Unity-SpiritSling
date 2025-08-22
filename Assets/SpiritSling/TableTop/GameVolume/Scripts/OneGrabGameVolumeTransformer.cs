@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using Oculus.Interaction;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// A Transformer that translates the target, with optional parent-space constraints
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class OneGrabGameVolumeTransformer : GameVolumeTransformer
     {
         [Serializable]

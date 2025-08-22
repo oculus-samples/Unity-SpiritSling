@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Linq;
 using Fusion.XR.Shared.Rig;
@@ -11,6 +12,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// First state before starting the game flow
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class SetupGameState : TabletopGameState
     {
         [SerializeField]

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using Fusion;
 using UnityEngine;
@@ -9,6 +10,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Game configuration variables shared over networked
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [Serializable]
     public struct TabletopGameSettings : INetworkStruct
     {

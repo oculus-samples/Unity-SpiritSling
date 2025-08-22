@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// A single hexagon of the grid
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class HexCell
     {
         /// <summary>

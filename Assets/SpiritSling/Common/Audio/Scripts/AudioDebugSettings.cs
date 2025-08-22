@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Photon.Voice;
 using Photon.Voice.Unity;
 using SpiritSling.TableTop;
@@ -8,6 +9,7 @@ using UnityEngine.UI;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class AudioDebugSettings : MonoBehaviour
     {
         [SerializeField]

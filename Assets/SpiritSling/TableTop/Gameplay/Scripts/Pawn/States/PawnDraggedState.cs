@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// The pawn is being dragged by the player
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public abstract class PawnDraggedState : PawnState
     {
         [SerializeField]

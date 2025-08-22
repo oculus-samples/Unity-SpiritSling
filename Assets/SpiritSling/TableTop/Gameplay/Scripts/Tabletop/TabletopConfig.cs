@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Tabletop core variables
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [CreateAssetMenu(fileName = "TableTop Config", menuName = "SpiritSling/TableTop/TableTop Config")]
     public class TabletopConfig : ScriptableObject
     {

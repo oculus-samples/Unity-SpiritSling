@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using Oculus.Platform;
@@ -8,6 +9,7 @@ using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class PlatformWrapper : MonoBehaviour
     {
         public delegate void OnLaunchParamsChangedHandler();

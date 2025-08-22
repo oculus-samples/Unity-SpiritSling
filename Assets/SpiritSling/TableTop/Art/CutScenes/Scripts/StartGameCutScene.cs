@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Introduction cutscene with Kodama spawn
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class StartGameCutScene : MonoBehaviour
     {
         public PlayableDirector playableDirector;

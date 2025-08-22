@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,6 +9,7 @@ namespace SpiritSling
     /// <summary>
     /// Common class used by VFX Team, to control all VFX Animators State Machine
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(Animator))]
     public class VFXController : MonoBehaviour
     {

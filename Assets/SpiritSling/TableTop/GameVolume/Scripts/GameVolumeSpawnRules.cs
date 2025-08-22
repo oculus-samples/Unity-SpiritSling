@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     [CreateAssetMenu(fileName = "GameVolumeSpawnRules", menuName = "SpiritSling/TableTop/GameVolume Spawn Rules")]
     public class GameVolumeSpawnRules : ScriptableObject
     {
@@ -28,10 +30,10 @@ namespace SpiritSling
         // distance at which ghost is snapped to closest top surface
         public float SnapSurfaceDistance = 0.30f;
 
-        // max height distance at which we display the gamevolume leg on floor 
+        // max height distance at which we display the gamevolume leg on floor
         public float LegMaxHeightDisplay = 0.90f;
 
-        // max height distance at which we display the gamevolume leg on floor 
+        // max height distance at which we display the gamevolume leg on floor
         public float LegMinHeightDisplay = 0.25f;
     }
 }

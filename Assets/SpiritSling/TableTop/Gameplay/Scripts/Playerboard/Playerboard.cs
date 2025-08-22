@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// This class is managing each Playerboard
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class Playerboard : NetworkBehaviour
     {

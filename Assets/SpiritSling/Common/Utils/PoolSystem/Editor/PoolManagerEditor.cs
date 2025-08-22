@@ -2,11 +2,13 @@
 
 #if UNITY_EDITOR
 
+using Meta.XR.Samples;
 using UnityEditor;
 using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     [CustomEditor(typeof(PoolManager))]
     public class PoolManagerEditor : UnityEditor.Editor
     {

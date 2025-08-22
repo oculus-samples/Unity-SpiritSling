@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -51,6 +52,7 @@ namespace SpiritSling
     /// The AudioManager class is a singleton component that manages audio playback in a Unity project.
     /// It requires a PoolManager component to be attached to the same GameObject.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(AudioSource))]
     public class AudioManager : Singleton<AudioManager>
     {

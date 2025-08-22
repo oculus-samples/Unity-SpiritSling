@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Hexagon grid displayed in the 3D world 
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class HexGridRenderer : MonoBehaviour
     {
         public static Vector3Int OutOfBoardPosition = Vector3Int.one * 9999;

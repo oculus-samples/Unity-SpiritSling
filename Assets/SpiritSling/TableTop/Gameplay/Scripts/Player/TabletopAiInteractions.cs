@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using Oculus.Interaction;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Wrapper for the Vector3 struct to pass it as an out value in an enumerator method.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class Vector3Wrapper
     {
         public Vector3 Value { get; set; }

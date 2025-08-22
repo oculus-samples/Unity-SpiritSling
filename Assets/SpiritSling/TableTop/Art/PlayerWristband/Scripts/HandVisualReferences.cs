@@ -1,11 +1,13 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using Oculus.Interaction.Input;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class HandVisualReferences : Singleton<HandVisualReferences>
     {
         [SerializeField] private HandVisual LeftHandVisual;

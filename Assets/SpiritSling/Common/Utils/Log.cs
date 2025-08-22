@@ -1,9 +1,11 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Diagnostics;
 using Object = UnityEngine.Object;
 
+[MetaCodeSample("SpiritSling")]
 public static class Log
 {
     public static string COLOR_DEBUG = "#47A0DA";

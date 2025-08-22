@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Fusion;
 using UnityEngine;
@@ -9,6 +10,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Manages the behavior and state of each Slingshot object in the tabletop game.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class Slingshot : Pawn, IAfterSpawned
     {

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Fusion;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// This class is managing each Kodama
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class Kodama : Pawn
     {

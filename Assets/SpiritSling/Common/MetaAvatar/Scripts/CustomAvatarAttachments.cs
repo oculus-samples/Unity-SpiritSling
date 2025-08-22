@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(OvrAvatarEntity), typeof(IAvatarBehaviour))]
     public class CustomAvatarAttachments : MonoBehaviour
     {

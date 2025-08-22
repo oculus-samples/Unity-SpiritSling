@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -8,6 +9,7 @@ using UnityEngine;
 namespace SpiritSling.TableTop
 {
     /// <seealso cref="VFXHealthPointController"/>
+    [MetaCodeSample("SpiritSling")]
     public class VFXHealthPointManager : MonoBehaviour
     {
         [SerializeField][Range(0, 0.1f)] private float _healhPointsVisualHeight = 0.02f;

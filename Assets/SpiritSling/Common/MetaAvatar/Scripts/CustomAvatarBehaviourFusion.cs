@@ -20,6 +20,7 @@
  * limitations under the License.
  */
 
+using Meta.XR.Samples;
 using System.Collections;
 using Fusion;
 using SpiritSling.TableTop;
@@ -27,6 +28,7 @@ using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class CustomAvatarBehaviourFusion : NetworkBehaviour, IAvatarBehaviour
     {
         private const float LERP_TIME = 0.5f;

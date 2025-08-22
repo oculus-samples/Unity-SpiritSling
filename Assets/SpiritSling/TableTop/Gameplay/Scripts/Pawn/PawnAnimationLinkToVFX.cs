@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using SpiritSling.TableTop;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling
     /// <summary>
     /// Does the link between the animation events and the related VFX for a pawn.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class PawnAnimationLinkToVFX : MonoBehaviour
     {
         private Pawn pawn;

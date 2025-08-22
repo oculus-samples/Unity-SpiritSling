@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Oculus.Interaction;
 using UnityEngine;
@@ -11,6 +12,7 @@ namespace SpiritSling
     /// <summary>
     /// Custom behaviour for all buttons of the project
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class CustomButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
     {

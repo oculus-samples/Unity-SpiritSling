@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 
 namespace SpiritSling.TableTop
@@ -7,6 +8,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Setup a new turn
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class NewTurnState : TabletopGameState
     {
         public override void Enter()

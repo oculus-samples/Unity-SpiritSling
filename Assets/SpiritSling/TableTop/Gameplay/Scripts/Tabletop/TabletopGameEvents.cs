@@ -1,10 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
+
 namespace SpiritSling.TableTop
 {
     /// <summary>
     /// Static events available related to table top gameplay
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public static class TabletopGameEvents
     {
         public delegate void OnCellInLavaHandler(HexCell cell);

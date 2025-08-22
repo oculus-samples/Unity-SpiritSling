@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class SceneLoadTrigger : MonoBehaviour
     {
         [SerializeField]

@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 #if UNITY_EDITOR
+using Meta.XR.Samples;
 using System.IO;
 using System.Reflection;
 using Fusion.Photon.Realtime;
@@ -12,6 +13,7 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using Application = UnityEngine.Application;
 
+[MetaCodeSample("SpiritSling")]
 public class GameSettings : ScriptableObject
 {
     [Header("App settings")]

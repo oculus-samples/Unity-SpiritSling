@@ -20,6 +20,7 @@
  * limitations under the License.
  */
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,6 +30,7 @@ using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public interface IAvatarBehaviour
     {
         // synced to network, can be 0 if user not entitled

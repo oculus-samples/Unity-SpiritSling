@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using Photon.Voice.Unity;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace SpiritSling
     /// <summary>
     /// Class managing the player's avatar object on the network
     /// </summary>
+	[MetaCodeSample("SpiritSling")]
     public abstract class NetworkPlayer : NetworkBehaviour
     {
         /// <summary>

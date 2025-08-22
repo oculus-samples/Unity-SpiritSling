@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using Oculus.Interaction;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace SpiritSling.TableTop
     /// grab points each frame.
     /// The axis is defined by a pivot transform: a world position and up vector.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class TwoGrabGameVolumeTransformer : GameVolumeTransformer
     {
         [SerializeField, Optional]

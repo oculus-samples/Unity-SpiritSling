@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Should be placed on the main kodama rig to get the events from the kodama animations.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class LeafAnimator : MonoBehaviour
     {
         private static readonly int DEPLOYING_IN_AIR_ID = Animator.StringToHash("DeployingInAir");

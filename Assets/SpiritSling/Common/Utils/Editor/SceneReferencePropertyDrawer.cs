@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEditor;
 using UnityEngine;
 
 namespace SpiritSling.Editor
 {
+    [MetaCodeSample("SpiritSling")]
     [CustomPropertyDrawer(typeof(SceneReference))]
     internal sealed class SceneReferencePropertyDrawer : PropertyDrawer
     {

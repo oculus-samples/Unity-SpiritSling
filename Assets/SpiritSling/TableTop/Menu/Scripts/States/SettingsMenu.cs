@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class SettingsMenu : MonoBehaviour
     {
         protected const int MAX_PLAYER_COUNT = 4;

@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TMPro;
 using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class PlayerSlot : MonoBehaviour
     {
         public enum State { Waiting, Ready, Accepted, Declined }

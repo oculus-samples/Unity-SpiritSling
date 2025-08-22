@@ -1,7 +1,9 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
+[MetaCodeSample("SpiritSling")]
 public class AnimatorOnStateEnterCallback : StateMachineBehaviour
 {
     public delegate void OnStateEnterHandler();

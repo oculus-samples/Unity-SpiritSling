@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.Editor
     /// <summary>
     /// Service to launch First Scene from Editor Build Settings instead of current opened Scenes
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [InitializeOnLoad]
     public static class PlayModeSceneOverride
     {

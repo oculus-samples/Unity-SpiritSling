@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     [CreateAssetMenu(fileName = "HexGrid Config", menuName = "SpiritSling/TableTop/HexGrid Config")]
     public class HexGridConfig : ScriptableObject
     {

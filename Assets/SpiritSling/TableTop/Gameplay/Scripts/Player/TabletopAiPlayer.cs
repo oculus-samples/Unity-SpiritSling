@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// "AI" used in training mode. This class manages the bot's planning.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [RequireComponent(typeof(TabletopAiInteractions))]
     public class TabletopAiPlayer : BaseTabletopPlayer
     {

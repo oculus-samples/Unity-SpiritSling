@@ -1,7 +1,10 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+
+using Meta.XR.Samples;
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public interface IPoolable
     {
         /// <summary>

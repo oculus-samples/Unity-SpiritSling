@@ -1,9 +1,11 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public static class RendererExtensions
     {
         public static void SetFloat(this MeshRenderer renderer, int propertyID, float value)

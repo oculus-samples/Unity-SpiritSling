@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Common behaviour and data for all TableTop states
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public abstract class TabletopGameState : State
     {
         [SerializeField]

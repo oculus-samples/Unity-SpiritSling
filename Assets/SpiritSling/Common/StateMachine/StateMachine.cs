@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling
     /// <summary>
     /// A very simple state machine
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public abstract class StateMachine : MonoBehaviour
     {
         protected State _currentState;

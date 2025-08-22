@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -9,6 +10,7 @@ namespace SpiritSling
     /// <summary>
     /// Simple tweens function without external dependencies
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public static class Tweens
     {
         public static AnimationCurve EaseInOut => AnimationCurve.EaseInOut(0, 0, 1, 1);

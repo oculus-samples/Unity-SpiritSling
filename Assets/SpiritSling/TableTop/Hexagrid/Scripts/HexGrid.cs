@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace SpiritSling.TableTop
     /// Hexagonal grid implementation 
     /// </summary>
     /// <remarks>See https://www.redblobgames.com/grids/hexagons/ for documentation about Hexagrids</remarks>
+    [MetaCodeSample("SpiritSling")]
     public class HexGrid
     {
         /// <summary>

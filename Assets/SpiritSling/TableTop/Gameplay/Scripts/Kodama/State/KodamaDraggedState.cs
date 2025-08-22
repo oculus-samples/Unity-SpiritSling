@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -7,6 +8,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// The kodama is being dragged by the player
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class KodamaDraggedState : PawnDraggedState
     {
         protected override HexCell GetCenterCell() => Pawn.CurrentCell;

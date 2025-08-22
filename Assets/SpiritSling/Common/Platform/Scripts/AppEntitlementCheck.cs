@@ -3,11 +3,13 @@
 #if (UNITY_STANDALONE_WIN || UNITY_ANDROID) && !BYPASS_OCULUS_CHECK
 #define OCULUS_CHECK_ON
 #endif
+using Meta.XR.Samples;
 using Oculus.Platform;
 using UnityEngine;
 
 namespace SpiritSling
 {
+	[MetaCodeSample("SpiritSling")]
     public sealed class AppEntitlementCheck : MonoBehaviour
     {
         public delegate void OnPlatformReadyHandler();

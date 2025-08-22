@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using Fusion;
 using Oculus.Interaction;
@@ -11,6 +12,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Controls the behavior of the bowling ball, including aiming, launching, and resetting.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class SlingBallShootController : NetworkBehaviour
     {
         public enum States { Idle, Dragging, Launched, Hit }

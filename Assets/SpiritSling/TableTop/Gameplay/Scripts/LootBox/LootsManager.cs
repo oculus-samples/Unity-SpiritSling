@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Struct representing a loot item in the game.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     [Serializable]
     public struct LootItem
     {

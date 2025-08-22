@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEditor;
 using UnityEngine;
 
 namespace SpiritSling.TableTop.Editor
 {
+    [MetaCodeSample("SpiritSling")]
     [CustomPropertyDrawer(typeof(BoardPart))]
     public class BoardPartDrawer : PropertyDrawer
     {

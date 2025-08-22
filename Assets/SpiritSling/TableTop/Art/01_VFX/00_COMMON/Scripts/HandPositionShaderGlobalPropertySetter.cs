@@ -1,11 +1,13 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using UnityEngine;
 using Hand = OVRPlugin.Hand;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class HandPositionShaderGlobalPropertySetter : MonoBehaviour
     {
         private static readonly int s_leftHandPos = Shader.PropertyToID("_LeftHandPos");

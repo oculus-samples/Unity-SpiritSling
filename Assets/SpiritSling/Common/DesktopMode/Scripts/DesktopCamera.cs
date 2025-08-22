@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using SpiritSling.TableTop;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class DesktopCamera : MonoBehaviour
     {
         public Vector3 menuCamPos;

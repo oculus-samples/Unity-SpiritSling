@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Represents a loot box in the tabletop game.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class LootBox : NetworkBehaviour
     {
         [SerializeField]

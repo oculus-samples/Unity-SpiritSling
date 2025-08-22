@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Setup a new round and let the first player play
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class NewRoundState : TabletopGameState
     {
         public override void Enter()

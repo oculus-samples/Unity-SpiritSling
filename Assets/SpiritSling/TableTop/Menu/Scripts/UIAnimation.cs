@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class UIAnimation
     {
         public UnityEvent OnFadeOutComplete;

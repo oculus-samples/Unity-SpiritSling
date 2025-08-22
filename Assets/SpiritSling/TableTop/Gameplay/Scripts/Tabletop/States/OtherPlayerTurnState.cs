@@ -1,10 +1,13 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
+
+using Meta.XR.Samples;
 
 namespace SpiritSling.TableTop
 {
     /// <summary>
     /// Not local player turn
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class OtherPlayerTurnState : TabletopGameState
     {
         public override void Enter()

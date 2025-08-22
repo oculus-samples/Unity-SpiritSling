@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -9,6 +10,7 @@ namespace SpiritSling.TableTop
     /// Handles the in-game tutorials for different phases of the tabletop game.
     /// This class manages the display and hiding of tutorial phases based on the game state.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class InGameTutorials : NetworkBehaviour
     {
         /// <summary>

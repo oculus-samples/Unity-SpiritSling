@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ using UnityEngine.InputSystem;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     [SelectionBase]
     public class GameVolume : MonoBehaviour
     {
@@ -45,7 +47,7 @@ namespace SpiritSling
         [SerializeField]
         private LayerMask _GhostLayer;
         [SerializeField]
-        private LayerMask _NormalLayer;        
+        private LayerMask _NormalLayer;
 
         public GameVolumePlaceholdersManager PlaceholdersManager { get; private set; }
 
@@ -84,7 +86,7 @@ namespace SpiritSling
                 transformer.updateTransform.AddListener(OnGameVolumeTransformed);
                 transformer.endTransform.AddListener(OnGameVolumeReleased);
             }
-          
+
         }
 
 #if UNITY_EDITOR
@@ -104,7 +106,7 @@ namespace SpiritSling
         private void Start()
         {
             GameVolumeManager.Instance.DisplayEffectMesh(false);
-            
+
             if (GameVolumeManager.Instance.TryGetClosestTablePositionInRange(
                     transform.position,
                     GameVolumeManager.Instance.SpawnRules.SnapSurfaceDistance, true,
@@ -175,7 +177,7 @@ namespace SpiritSling
                     _noTableLeg.transform.position = pivotPos;
                     Shader.SetGlobalFloat(_shaderID, 0);
                 }
-                else // too high or too low 
+                else // too high or too low
                 {
                     _noTableLeg.SetActive(false);
                     Shader.SetGlobalFloat(_shaderID, 1);
@@ -259,7 +261,7 @@ namespace SpiritSling
             PlaceholdersManager.RefreshPlaceholders();
 
             GameVolumeManager.Instance.DisplayEffectMesh(false);
-            
+
             if (_ghost.activeSelf)
             {
                 transform.SetPositionAndRotation(_ghostPivot.transform.position, _ghostPivot.transform.rotation);

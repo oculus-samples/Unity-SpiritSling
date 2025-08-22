@@ -22,11 +22,13 @@
 
 using Fusion;
 using Meta.XR.MultiplayerBlocks.Shared;
+using Meta.XR.Samples;
 using Oculus.Avatar2;
 using UnityEngine;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class CustomAvatarSpawnerFusion : MonoBehaviour
     {
 #pragma warning disable CS0414 // If Avatar SDK not installed these fields are not used, disable warning but retain serialization

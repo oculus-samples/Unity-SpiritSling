@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling
     /// <summary>
     /// Simple math function without external dependencies
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public static class MathUtils
     {
         public static float DistanceXZPlane(Vector3 a, Vector3 b)

@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
@@ -7,6 +8,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// The kodama has been dropped on a tile
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class PawnDroppedState : PawnState
     {
         private bool dropSucceed;

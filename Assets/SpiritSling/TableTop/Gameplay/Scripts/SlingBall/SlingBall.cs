@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ namespace SpiritSling.TableTop
     /// Manages the behavior of the Slingball object in a tabletop game, 
     /// including its grab functionality and phase-specific interactions.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class SlingBall : NetworkBehaviour
     {
         public delegate void OnShotSequenceDoneHandler(Slingshot slingshot, HexCell targetShotCell, bool hitCliff);

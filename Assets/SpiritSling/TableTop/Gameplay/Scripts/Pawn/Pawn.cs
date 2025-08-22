@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using Fusion;
@@ -13,6 +14,7 @@ namespace SpiritSling.TableTop
     /// Represents a movable and networked entity on the grid in the tabletop game.
     /// This is an abstract base class for all pawn-like objects.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public abstract class Pawn : NetworkBehaviour
     {
 
@@ -144,7 +146,7 @@ namespace SpiritSling.TableTop
 
         protected bool _isOnGrid;
 
-        /// <summary>²
+        /// <summary>Â²
         /// Indicates whether the pawn is currently on the grid.
         /// </summary>
         public virtual bool IsOnGrid

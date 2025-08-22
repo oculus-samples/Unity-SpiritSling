@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -7,6 +8,7 @@ using UnityEngine.InputSystem.UI;
 
 namespace SpiritSling
 {
+    [MetaCodeSample("SpiritSling")]
     public class DesktopModeEnabler : MonoBehaviour
     {
         [SerializeField]

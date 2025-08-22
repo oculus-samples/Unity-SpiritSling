@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Local player turn phase 1
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class MyTurnPhase1State : TabletopGameState
     {
         private WaitForSeconds waitBeforeKodamaEncourage;

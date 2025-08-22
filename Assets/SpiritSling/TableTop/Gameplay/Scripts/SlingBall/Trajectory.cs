@@ -1,4 +1,4 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
 /// <summary>
 /// This class provides methods for calculating and analyzing the trajectory
@@ -8,11 +8,13 @@
 /// </summary>
 /// <author>Anthony KOZAK</author>
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace SpiritSling.TableTop
 {
+    [MetaCodeSample("SpiritSling")]
     public class Trajectory : MonoBehaviour
     {
         [Range(0, 90)]

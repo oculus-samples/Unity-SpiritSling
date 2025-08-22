@@ -1,5 +1,6 @@
-﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
+// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// State machine for the table top game
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class TabletopGameStateMachine : StateMachine
     {
         [Header("States")]

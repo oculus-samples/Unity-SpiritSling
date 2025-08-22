@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Fusion;
+using Meta.XR.Samples;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace SpiritSling.TableTop
     /// <summary>
     /// Handles the movement and interaction logic for pawns within the game, including VR drag detection and state management.
     /// </summary>
+    [MetaCodeSample("SpiritSling")]
     public class PawnMovement : NetworkBehaviour
     {
         #region Fields
