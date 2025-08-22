@@ -15,6 +15,19 @@ namespace SpiritSling
         public Vector3 gameCamPos;
         public Vector3 gameCamRot;
 
+        private void OnEnable()
+        {
+            if (TryGetComponent<Camera>(out var cam))
+            {
+                cam.enabled = true;
+            }
+            
+            if (TryGetComponent<AudioListener>(out var audioListener))
+            {
+                audioListener.enabled = true;
+            }
+        }
+
         void Update()
         {
             if (Keyboard.current.eKey.wasPressedThisFrame)
