@@ -137,8 +137,7 @@ namespace SpiritSling.TableTop
         private bool IsBurgerMenuActionPerformed()
         {
             // Hand gesture
-            var actionPerformed = (OVRPlugin.GetControllerState4((uint)OVRInput.Controller.Hands).Buttons &
-                        (uint)OVRInput.RawButton.Start) > 0;
+            var actionPerformed = OVRInput.GetDown(OVRInput.Button.Start);
 
 #if UNITY_EDITOR
             // Debug keyboard
