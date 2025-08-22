@@ -20,7 +20,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -107,6 +108,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _ENABLEVFX: 1
+    - _EmissiveMaskHeight: 0.4
     - _Emissive_height: 1.1
     - _Emissive_mask_height: 0.3
     - _EnvironmentReflections: 1
@@ -117,6 +119,7 @@ Material:
     - _GlossyReflections: 0
     - _INVERT_EMISSIVE_MASK: 0
     - _INVERT_EMISSIVE_MASK_KEY: 0
+    - _InvertEmissiveMask: 1
     - _Invert_Emissive_mask: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -147,6 +150,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _VFXColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &4203615624190254565
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -159,4 +163,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9

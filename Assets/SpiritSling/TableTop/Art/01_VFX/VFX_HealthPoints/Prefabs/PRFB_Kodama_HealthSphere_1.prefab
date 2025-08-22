@@ -26,7 +26,7 @@ PrefabInstance:
     - target: {fileID: 3546950895590820073, guid: 90f9a8041accc1647ad60beddfdcd4bc,
         type: 3}
       propertyPath: m_Name
-      value: Kodama1_HealthSphere
+      value: PRFB_Kodama_HealthSphere_1
       objectReference: {fileID: 0}
     - target: {fileID: 5249702429945303033, guid: 90f9a8041accc1647ad60beddfdcd4bc,
         type: 3}
@@ -35,7 +35,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6522158884022205028, guid: 90f9a8041accc1647ad60beddfdcd4bc,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 98d686a5fe43c3e469cec22f8b773e72, type: 2}
     m_RemovedComponents: []

@@ -526,6 +526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 28f6ffa06183c054495acab7ed1b18b5, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 28f6ffa06183c054495acab7ed1b18b5, type: 3}
@@ -620,7 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 131f444352e0b4b41a170090a761ca5b,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6f6a3ebb4f4e516478019845b1dae42d, type: 2}
     - target: {fileID: 919132149155446097, guid: 131f444352e0b4b41a170090a761ca5b,
@@ -651,7 +656,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8170624846542031027
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -665,6 +670,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -733,6 +739,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e78d342442bcda46b5d6f1a738f895d, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -833,7 +844,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 476553817849906957, guid: 3b9de85c41669a848a80cb797d8edd78,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fdc4b5d756ff0f8488fffe342c157f35, type: 2}
     - target: {fileID: 1486750874951846529, guid: 3b9de85c41669a848a80cb797d8edd78,
@@ -1011,7 +1022,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &6523935131785003116
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1025,6 +1036,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1038,7 +1050,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &6039483078473414052
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1052,6 +1064,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1065,7 +1078,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &2290567228291147447
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1079,6 +1092,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1092,7 +1106,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &196252272961029503
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1106,6 +1120,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1335,6 +1350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: bdc5d1c0f875e3b419e31e7f1f0b1bfb, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: bdc5d1c0f875e3b419e31e7f1f0b1bfb, type: 3}
@@ -1420,6 +1440,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 24877a068ec00f249bb7d847d927b2d2, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 24877a068ec00f249bb7d847d927b2d2, type: 3}
@@ -1503,6 +1528,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 30e9081edab1d3848954b986613f51e3,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: bb029ec0f29c6446e80a94b51b3e11ea, type: 3}
     - target: {fileID: 4757504074226559904, guid: 30e9081edab1d3848954b986613f51e3,
         type: 3}
       propertyPath: m_audioClip
@@ -1600,6 +1630,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 059639bd37dfd2541b166fe1acd08380, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -1762,22 +1797,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3490160843283594584, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e352d2139fcd6854b8f7eb7475d85d65, type: 2}
     - target: {fileID: 3613591485115343296, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e352d2139fcd6854b8f7eb7475d85d65, type: 2}
     - target: {fileID: 4020197321565719319, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 21addba4abda545469d25a2bde522810, type: 2}
     - target: {fileID: 4024812833179354810, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e352d2139fcd6854b8f7eb7475d85d65, type: 2}
     - target: {fileID: 6705727393566200402, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
@@ -1787,17 +1822,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8131302496870910109, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 21addba4abda545469d25a2bde522810, type: 2}
     - target: {fileID: 8471326228954884038, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e352d2139fcd6854b8f7eb7475d85d65, type: 2}
     - target: {fileID: 8816864673651535074, guid: 8429b27f4f1c2dc42a79394bb1c048ea,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 21addba4abda545469d25a2bde522810, type: 2}
     m_RemovedComponents: []
@@ -1874,6 +1909,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d94de7df05dc8fc428efbf241ee904a4, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -1959,6 +1999,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d6cec04eabb0f40ab8ae3907534cb31d, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -2158,7 +2203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7592320317008622756, guid: 5458c2e6ce4141f47a74e43464504bbe,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ec61bfc03c0c5c2408a4ab7ccf1b2690, type: 2}
     - target: {fileID: 7947076702260414350, guid: 5458c2e6ce4141f47a74e43464504bbe,
@@ -2239,7 +2284,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &3255626582630158444
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2253,6 +2298,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -2327,6 +2373,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 120ed6558135089478ceae09b96d9fed, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -2761,7 +2812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6976310702306375464, guid: dd76df5f8485ddc41a1238b7b125fc30,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0f916f53c00106c4284866586f60f08f, type: 2}
     - target: {fileID: 7198271288356243388, guid: dd76df5f8485ddc41a1238b7b125fc30,
@@ -2827,7 +2878,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &7860070538112832081
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2841,6 +2892,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3063,6 +3115,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: eb35181840f687d4a887247556f7471b, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -3298,7 +3355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8029820127578566809, guid: 2529bfd70422fe243bb8d9dade8173c5,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ec61bfc03c0c5c2408a4ab7ccf1b2690, type: 2}
     m_RemovedComponents: []
@@ -3375,6 +3432,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 0dd26cda7ef40aa49922c1a6c302df61, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -3462,6 +3524,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: afb49105e52815c43959981bbea961d8, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: afb49105e52815c43959981bbea961d8, type: 3}
@@ -3539,6 +3606,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f0804bd49ee0cd49bd1b9067c5a7279, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -3699,6 +3771,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: b1392eb365eec6941b78ca3b23779f69, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b1392eb365eec6941b78ca3b23779f69, type: 3}
@@ -3778,6 +3855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e3e05c315db07848a2cd7e9650d58fb, type: 3}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2e3e05c315db07848a2cd7e9650d58fb, type: 3}
@@ -3855,6 +3937,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: bcf1733246fb60447b506d8be9b1f09c, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7dfc755a12e163748959cf030d30e416,
         type: 3}
       propertyPath: m_audioClip
@@ -4088,6 +4175,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 30e9081edab1d3848954b986613f51e3,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a74f56906df747ffbeee4ee0d6f2c24, type: 3}
     - target: {fileID: 4757504074226559904, guid: 30e9081edab1d3848954b986613f51e3,
         type: 3}
       propertyPath: m_audioClip

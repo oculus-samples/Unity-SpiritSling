@@ -173,8 +173,11 @@ MonoBehaviour:
   - {fileID: 2638076345699845452}
   - {fileID: 5537789736313775134}
   - {fileID: 5293690114796258232}
-  DisplayHP: 0
+  lineRendererController: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  PlayerboardFireTransform: {fileID: 0}
   forceField: {fileID: 0}
+  DisplayHP: 0
 --- !u!114 &8871247984935285548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handedness: 0
-  isVisible: 0
 --- !u!114 &5174492240166547338
 MonoBehaviour:
   m_ObjectHideFlags: 0

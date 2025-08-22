@@ -250,6 +250,7 @@ MonoBehaviour:
       AxisRange:
         Min: 1
         Max: 1
+  _resetScaleResponsivenessOnConstraintOvershoot: 0
 --- !u!1 &2713898110348631357
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +607,6 @@ MonoBehaviour:
   winDisappearScaleDuration: 0.5
   _HealthPoints: 0
   _Position: {x: 0, y: 0, z: 0}
-  _IsOnGrid: 0
   _OwnerId: 0
   vfxHealthPointManager: {fileID: 880093977988630373}
   activeSlingAudioClips:
@@ -666,6 +666,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

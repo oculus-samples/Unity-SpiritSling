@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -32,7 +32,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: _Color_Randomness _Colors_Mask _DirtEdgeMultiplier _DirtNoiseStrength
     _DirtSize _DirtVariationTexture _Falloff_Noise_Texture _Smoothness _Vertex_Colors_Intensity
     _VerticalWiggleAmount _WiggleAmount _WiggleSpeed _Y_CutOut
@@ -231,3 +232,4 @@ Material:
     - _Tint_Color_Bright: {r: 0.81050456, g: 0.990566, b: 0.62144, a: 1}
     - _Tint_Color_Dark: {r: 0.42598423, g: 0.836478, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

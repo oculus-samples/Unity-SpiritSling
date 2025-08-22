@@ -275,6 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c7ac274e9244eba2895f4603c34a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextState: {fileID: 0}
+  allowManualSkip: 0
   _tableTop: {fileID: 4414753636836591504, guid: b0814c4aeb4fbdb48b37cf25bede36cd,
     type: 3}
   _transitionAudioClip: {fileID: 8300000, guid: 307f37fdf75bc4cd8b15dd2038fad514,

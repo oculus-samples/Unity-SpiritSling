@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: 97dbb2b4c5d67894381958ef748f2a74
 PluginImporter:
   externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
@@ -11,9 +11,12 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-  - first:
-      : Any
-    second:
+    Android:
+      enabled: 1
+      settings:
+        AndroidSharedLibraryType: Executable
+        CPU: ARMv7
+    Any:
       enabled: 0
       settings:
         Exclude Android: 0
@@ -33,72 +36,42 @@ PluginImporter:
         Exclude XboxOne: 1
         Exclude iOS: 1
         Exclude tvOS: 1
-  - first:
-      Android: Android
-    second:
-      enabled: 1
-      settings:
-        AndroidSharedLibraryType: Executable
-        CPU: ARMv7
-  - first:
-      Any: 
-    second:
-      enabled: 0
-      settings: {}
-  - first:
-      Editor: Editor
-    second:
+    Editor:
       enabled: 1
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
         OS: AnyOS
-  - first:
-      GameCoreScarlett: GameCoreScarlett
-    second:
+    GameCoreScarlett:
       enabled: 1
       settings: {}
-  - first:
-      GameCoreXboxOne: GameCoreXboxOne
-    second:
+    GameCoreXboxOne:
       enabled: 1
       settings: {}
-  - first:
-      Standalone: Linux64
-    second:
+    Linux64:
       enabled: 1
       settings:
         CPU: AnyCPU
-  - first:
-      Standalone: OSXUniversal
-    second:
+    OSXUniversal:
       enabled: 1
       settings:
         CPU: AnyCPU
-  - first:
-      Standalone: Win
-    second:
-      enabled: 1
-      settings:
-        CPU: x86
-  - first:
-      Standalone: Win64
-    second:
-      enabled: 1
-      settings:
-        CPU: x86_64
-  - first:
-      VisionOS: VisionOS
-    second:
+    VisionOS:
       enabled: 0
       settings:
         AddToEmbeddedBinaries: false
         CPU: ARM64
         CompileFlags: 
         FrameworkDependencies: 
-  - first:
-      Windows Store Apps: WindowsStoreApps
-    second:
+    Win:
+      enabled: 1
+      settings:
+        CPU: x86
+    Win64:
+      enabled: 1
+      settings:
+        CPU: x86_64
+    WindowsStoreApps:
       enabled: 0
       settings:
         CPU: AnyCPU
@@ -106,18 +79,14 @@ PluginImporter:
         PlaceholderPath: 
         SDK: UWP
         ScriptingBackend: Il2Cpp
-  - first:
-      iPhone: iOS
-    second:
+    iOS:
       enabled: 0
       settings:
         AddToEmbeddedBinaries: false
         CPU: AnyCPU
         CompileFlags: 
         FrameworkDependencies: 
-  - first:
-      tvOS: tvOS
-    second:
+    tvOS:
       enabled: 0
       settings:
         CPU: AnyCPU

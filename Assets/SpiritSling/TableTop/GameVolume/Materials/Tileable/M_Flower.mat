@@ -8,20 +8,21 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Flower
-  m_Shader: {fileID: -6465566751694194690, guid: 0d5efd1314fb17a47b95ff1c9a5b668a,
+  m_Shader: {fileID: -6465566751694194690, guid: 89590430482593043b6eb3cbf00afab6,
     type: 3}
   m_Parent: {fileID: 2100000, guid: fe6e738ebfc66db4dad599e211c7dcc2, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USECUTHEIGHT
-  m_InvalidKeywords:
   - _USE_WIND
+  m_InvalidKeywords:
+  - _USECUTHEIGHT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: _NormalAO
   m_SavedProperties:
     serializedVersion: 3
@@ -43,6 +44,7 @@ Material:
     - _Tint_01: {r: 0.87358487, g: 0.97279674, b: 1, a: 0}
     - _Tint_02: {r: 0.3226415, g: 0.846201, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &2829391733215410962
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -55,4 +57,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9

@@ -563,7 +563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2658126597403890643, guid: c509ae5a257765343aff792ff8226241,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a1ea45b73fdeefb4a8912db609fc5986, type: 2}
     - target: {fileID: 919132149155446097, guid: c509ae5a257765343aff792ff8226241,
@@ -600,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009309454358817702, guid: c509ae5a257765343aff792ff8226241,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a1ea45b73fdeefb4a8912db609fc5986, type: 2}
     - target: {fileID: 8615942713727287717, guid: c509ae5a257765343aff792ff8226241,
@@ -693,7 +693,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8612697680460187874
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -707,6 +707,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1123762978141911259, guid: 8abc990b216678a4ba76cdb2daea8d1a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9ebaa9709d7531d4c942b8094ecb4bc8, type: 2}
     - target: {fileID: 1484098846635956494, guid: 8abc990b216678a4ba76cdb2daea8d1a,
@@ -75,7 +75,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2707626220721898027, guid: 8abc990b216678a4ba76cdb2daea8d1a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c88457acbd6b8a747802a581c034cc56, type: 2}
     - target: {fileID: 2823326406363933292, guid: 8abc990b216678a4ba76cdb2daea8d1a,
@@ -85,12 +85,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3193806667596899173, guid: 8abc990b216678a4ba76cdb2daea8d1a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 707d7933fd901f24c85aaf380e670186, type: 2}
     - target: {fileID: 3198889721572335518, guid: 8abc990b216678a4ba76cdb2daea8d1a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f859d88f4b3eec34f86350e5e44cb926, type: 2}
     - target: {fileID: 4186736042764097653, guid: 8abc990b216678a4ba76cdb2daea8d1a,
@@ -105,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5526636051203019929, guid: 8abc990b216678a4ba76cdb2daea8d1a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 707d7933fd901f24c85aaf380e670186, type: 2}
     m_RemovedComponents: []
@@ -215,3 +215,4 @@ MonoBehaviour:
   _Position: {x: 0, y: 0, z: 0}
   _HealthPoints: 0
   _IsKilled: 0
+  showLinkVfx: 0

@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -849,9 +846,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920460392}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.8689727, b: 0.76415086, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -901,8 +897,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &920460395
 Transform:
   m_ObjectHideFlags: 0
@@ -1140,17 +1140,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: bots.Array.data[0]
+      propertyPath: 'bots.Array.data[0]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: bots.Array.data[1]
+      propertyPath: 'bots.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: bots.Array.data[2]
+      propertyPath: 'bots.Array.data[2]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
@@ -1160,22 +1160,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: gameStateMachines.Array.data[0]
+      propertyPath: 'gameStateMachines.Array.data[0]'
       value: 
       objectReference: {fileID: 1305131257}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: gameStateMachines.Array.data[1]
+      propertyPath: 'gameStateMachines.Array.data[1]'
       value: 
       objectReference: {fileID: 23156370}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: gameStateMachines.Array.data[2]
+      propertyPath: 'gameStateMachines.Array.data[2]'
       value: 
       objectReference: {fileID: 176649855}
     - target: {fileID: 21380960958064647, guid: 85649052cd3b2e84a97265e9a3f09408,
         type: 3}
-      propertyPath: gameStateMachines.Array.data[3]
+      propertyPath: 'gameStateMachines.Array.data[3]'
       value: 
       objectReference: {fileID: 144962885}
     - target: {fileID: 213883751744507466, guid: 85649052cd3b2e84a97265e9a3f09408,

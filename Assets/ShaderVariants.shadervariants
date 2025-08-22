@@ -58,6 +58,11 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 0
+  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
   - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
     second:
       variants:
@@ -84,28 +89,6 @@ ShaderVariantCollection:
         passType: 0
       - keywords: STEREO_MULTIVIEW_ON _SURFACE_TYPE_TRANSPARENT
         passType: 0
-  - first: {fileID: 4800000, guid: f723a494700aee146aa96072604b48c0, type: 3}
-    second:
-      variants: []
-  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: STEREO_INSTANCING_ON
-        passType: 0
-  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: _ALPHATEST_ON
-        passType: 0
   - first: {fileID: -6465566751694194690, guid: 63a973bae76b9104d8a59475663c2c44,
       type: 3}
     second:
@@ -130,6 +113,13 @@ ShaderVariantCollection:
         passType: 8
       - keywords: STEREO_MULTIVIEW_ON _ALPHATEST_ON _USE_RED_AS_ALPHA
         passType: 8
+  - first: {fileID: -6465566751694194690, guid: 187e3fb943ed0ad41850328ab439d281,
+      type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: f723a494700aee146aa96072604b48c0, type: 3}
+    second:
+      variants: []
   - first: {fileID: -6465566751694194690, guid: dd4cd18fec38aa342892657f7a1194a1,
       type: 3}
     second:
@@ -140,7 +130,8 @@ ShaderVariantCollection:
         passType: 0
       - keywords: STEREO_MULTIVIEW_ON _ENABLE_VFX
         passType: 0
-      - keywords: STEREO_MULTIVIEW_ON _ENABLE_VFX _INVERT_DISTORTION_FOR_BACKFACES _SURFACE_TYPE_TRANSPARENT
+      - keywords: STEREO_MULTIVIEW_ON _ENABLE_VFX _INVERT_DISTORTION_FOR_BACKFACES
+          _SURFACE_TYPE_TRANSPARENT
         passType: 0
       - keywords: STEREO_MULTIVIEW_ON _INVERT_DISTORTION_FOR_BACKFACES _SURFACE_TYPE_TRANSPARENT
         passType: 0
@@ -154,16 +145,52 @@ ShaderVariantCollection:
         passType: 8
       - keywords: STEREO_MULTIVIEW_ON _INVERT_DISTORTION_FOR_BACKFACES
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 187e3fb943ed0ad41850328ab439d281,
-      type: 3}
-    second:
-      variants: []
   - first: {fileID: -6465566751694194690, guid: 5c855f919a9000f4dacff8363dc94ef8,
       type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
+  - first: {fileID: -6465566751694194690, guid: e87f68c719179de47a3d42541d9944f2,
+      type: 3}
+    second:
+      variants:
+      - keywords: STEREO_MULTIVIEW_ON _BLEND_ADD
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON _BLEND_ADD
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 6cccf23fe0bff9e40b793ebd399999f8,
+      type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 0d5efd1314fb17a47b95ff1c9a5b668a,
+      type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON
+        passType: 0
+      - keywords: _ALPHATEST_ON _FLOATINGMOVEMENT _USECUTHEIGHT
+        passType: 0
+      - keywords: _ALPHATEST_ON _USECUTHEIGHT
+        passType: 0
+      - keywords: _USECUTHEIGHT
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _ALPHATEST_ON _FLOATINGMOVEMENT _USECUTHEIGHT
+        passType: 8
+      - keywords: _ALPHATEST_ON _USECUTHEIGHT
+        passType: 8
+      - keywords: _USECUTHEIGHT
+        passType: 8
   - first: {fileID: -6465566751694194690, guid: 89590430482593043b6eb3cbf00afab6,
       type: 3}
     second:
@@ -188,33 +215,24 @@ ShaderVariantCollection:
         passType: 0
       - keywords: _ENABLEVFX
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 8879fd0e52aed004fa96957b4442dca5,
+  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: eeb94b43d8a808d43aefd6e10dae8db5,
+      type: 3}
+    second:
+      variants: []
+  - first: {fileID: -6465566751694194690, guid: 69e9294683ea3aa40aa2232573498781,
       type: 3}
     second:
       variants:
-      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+      - keywords: 
         passType: 0
-      - keywords: _ALPHATEST_ON
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: 0d5efd1314fb17a47b95ff1c9a5b668a,
-      type: 3}
-    second:
-      variants:
-      - keywords: _ALPHATEST_ON
-        passType: 0
-      - keywords: _ALPHATEST_ON _FLOATINGMOVEMENT _USECUTHEIGHT
-        passType: 0
-      - keywords: _ALPHATEST_ON _USECUTHEIGHT
-        passType: 0
-      - keywords: _USECUTHEIGHT
-        passType: 0
-      - keywords: _ALPHATEST_ON
-        passType: 8
-      - keywords: _ALPHATEST_ON _FLOATINGMOVEMENT _USECUTHEIGHT
-        passType: 8
-      - keywords: _ALPHATEST_ON _USECUTHEIGHT
-        passType: 8
-      - keywords: _USECUTHEIGHT
+      - keywords: 
         passType: 8
   - first: {fileID: -6465566751694194690, guid: 89f4263aab6582c45bfb33c4b1b7fc57,
       type: 3}
@@ -240,42 +258,22 @@ ShaderVariantCollection:
         passType: 0
       - keywords: 
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: ef598d9739539af4eaf6e43e9d77aa6b,
-      type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON
-        passType: 0
-      - keywords: DEBUG_DISPLAY _USEFLATTENDHEIGHT
-        passType: 0
-      - keywords: _USEFLATTENDHEIGHT
-        passType: 0
-      - keywords: _USEFLATTENDHEIGHT _WRITE_RENDERING_LAYERS
-        passType: 0
-      - keywords: INSTANCING_ON
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: e87f68c719179de47a3d42541d9944f2,
-      type: 3}
-    second:
-      variants:
-      - keywords: STEREO_MULTIVIEW_ON _BLEND_ADD
-        passType: 0
-      - keywords: STEREO_MULTIVIEW_ON _BLEND_ADD
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: d2313feeed085f24b8f8d05f3e7fc86f,
+  - first: {fileID: -6465566751694194690, guid: d0c25e118f82abc469e106c06b6af67d,
       type: 3}
     second:
       variants: []
-  - first: {fileID: -6465566751694194690, guid: cd6c8069294bb6745a95500b418da392,
+  - first: {fileID: -6465566751694194690, guid: 19acb403fb5cd204d81a0d1a153c9a4a,
       type: 3}
     second:
       variants:
-      - keywords: _USE_TEXTURE_NOISE
+      - keywords: _ALPHATEST_ON _INVERTED_NORMAL _SURFACE_TYPE_TRANSPARENT
         passType: 0
-      - keywords: _USE_TEXTURE_NOISE _USE_UV_LENGTH_CUTOUT
+      - keywords: _INVERTED_NORMAL _SURFACE_TYPE_TRANSPARENT
         passType: 0
+      - keywords: _ALPHATEST_ON _INVERTED_NORMAL
+        passType: 8
+      - keywords: _INVERTED_NORMAL
+        passType: 8
   - first: {fileID: -6465566751694194690, guid: 7d7a113c9d67b1544b0aadca834e6232,
       type: 3}
     second:
@@ -284,7 +282,51 @@ ShaderVariantCollection:
         passType: 0
       - keywords: 
         passType: 8
+  - first: {fileID: -6465566751694194690, guid: 8879fd0e52aed004fa96957b4442dca5,
+      type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: a3f555800457f5744806aa3114a126da,
+      type: 3}
+    second:
+      variants:
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: d59a4b54fad9c4c49b5da59bb2254662,
+      type: 3}
+    second:
+      variants: []
+  - first: {fileID: -6465566751694194690, guid: 3e7184e19987a5148b61a04666f581b4,
+      type: 3}
+    second:
+      variants: []
+  - first: {fileID: -6465566751694194690, guid: 430cb8a64ae6f1e479ff945ab436b8b7,
+      type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 2a3a281ea5da4bb439cd3fa0a79c723b,
+      type: 3}
+    second:
+      variants: []
   - first: {fileID: -6465566751694194690, guid: a22c4917d3e8b2c47993df5ec2fec980,
+      type: 3}
+    second:
+      variants:
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 1d349fa82e713814ba362a4c6d9e6d29,
       type: 3}
     second:
       variants:
@@ -300,33 +342,45 @@ ShaderVariantCollection:
         passType: 0
       - keywords: 
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 6cccf23fe0bff9e40b793ebd399999f8,
+  - first: {fileID: -6465566751694194690, guid: 3c89499b025476a45b4f5046e391aee3,
       type: 3}
     second:
       variants:
       - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
         passType: 0
-      - keywords: _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: 
-        passType: 8
       - keywords: _ALPHATEST_ON
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 69e9294683ea3aa40aa2232573498781,
+  - first: {fileID: -6465566751694194690, guid: cd6c8069294bb6745a95500b418da392,
+      type: 3}
+    second:
+      variants:
+      - keywords: _USE_TEXTURE_NOISE
+        passType: 0
+      - keywords: _USE_TEXTURE_NOISE _USE_UV_LENGTH_CUTOUT
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: d00cfa20db22360448613e7bed0b2a78,
       type: 3}
     second:
       variants:
       - keywords: 
         passType: 0
-      - keywords: 
+      - keywords: INSTANCING_ON
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 1d349fa82e713814ba362a4c6d9e6d29,
+  - first: {fileID: -6465566751694194690, guid: ef598d9739539af4eaf6e43e9d77aa6b,
       type: 3}
     second:
       variants:
-      - keywords: _SURFACE_TYPE_TRANSPARENT
-        passType: 0
       - keywords: 
+        passType: 0
+      - keywords: DEBUG_DISPLAY _USEFLATTENDHEIGHT
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: _USEFLATTENDHEIGHT
+        passType: 0
+      - keywords: _USEFLATTENDHEIGHT _WRITE_RENDERING_LAYERS
+        passType: 0
+      - keywords: INSTANCING_ON
         passType: 8
   - first: {fileID: -6465566751694194690, guid: cbdf309807985e242bc51298d1c5440b,
       type: 3}
@@ -336,14 +390,25 @@ ShaderVariantCollection:
         passType: 0
       - keywords: 
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: a3f555800457f5744806aa3114a126da,
+  - first: {fileID: -6465566751694194690, guid: a65c6ec520043e24e957049cd6fd7718,
       type: 3}
     second:
       variants:
-      - keywords: _SURFACE_TYPE_TRANSPARENT
+      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
         passType: 0
-      - keywords: 
+      - keywords: INSTANCING_ON _ALPHATEST_ON
         passType: 8
+  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: STEREO_INSTANCING_ON
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: d2313feeed085f24b8f8d05f3e7fc86f,
+      type: 3}
+    second:
+      variants: []
   - first: {fileID: -6465566751694194690, guid: 3ee163b195b93e344a8930b73140569a,
       type: 3}
     second:
@@ -362,26 +427,6 @@ ShaderVariantCollection:
       type: 3}
     second:
       variants: []
-  - first: {fileID: -6465566751694194690, guid: d59a4b54fad9c4c49b5da59bb2254662,
-      type: 3}
-    second:
-      variants: []
-  - first: {fileID: -6465566751694194690, guid: 430cb8a64ae6f1e479ff945ab436b8b7,
-      type: 3}
-    second:
-      variants:
-      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _ALPHATEST_ON
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: 3c89499b025476a45b4f5046e391aee3,
-      type: 3}
-    second:
-      variants:
-      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _ALPHATEST_ON
-        passType: 8
   - first: {fileID: -6465566751694194690, guid: 6a3c5e7b1a320b0418944a07caee3c9f,
       type: 3}
     second:
@@ -390,55 +435,11 @@ ShaderVariantCollection:
         passType: 0
       - keywords: _ALPHATEST_ON
         passType: 8
-  - first: {fileID: -6465566751694194690, guid: 19acb403fb5cd204d81a0d1a153c9a4a,
-      type: 3}
-    second:
-      variants:
-      - keywords: _ALPHATEST_ON _INVERTED_NORMAL _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _INVERTED_NORMAL _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: _ALPHATEST_ON _INVERTED_NORMAL
-        passType: 8
-      - keywords: _INVERTED_NORMAL
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: 3e7184e19987a5148b61a04666f581b4,
-      type: 3}
-    second:
-      variants: []
-  - first: {fileID: -6465566751694194690, guid: 2a3a281ea5da4bb439cd3fa0a79c723b,
-      type: 3}
-    second:
-      variants: []
-  - first: {fileID: -6465566751694194690, guid: a65c6ec520043e24e957049cd6fd7718,
-      type: 3}
-    second:
-      variants:
-      - keywords: _ALPHATEST_ON _SURFACE_TYPE_TRANSPARENT
-        passType: 0
-      - keywords: INSTANCING_ON _ALPHATEST_ON
-        passType: 8
   - first: {fileID: -6465566751694194690, guid: aaf303cfaf43331488527dbd2a160d61,
       type: 3}
     second:
       variants: []
   - first: {fileID: -6465566751694194690, guid: 7ec45d262ea00904aac6548ef82a8115,
-      type: 3}
-    second:
-      variants: []
-  - first: {fileID: -6465566751694194690, guid: d00cfa20db22360448613e7bed0b2a78,
-      type: 3}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
-      - keywords: INSTANCING_ON
-        passType: 8
-  - first: {fileID: -6465566751694194690, guid: eeb94b43d8a808d43aefd6e10dae8db5,
-      type: 3}
-    second:
-      variants: []
-  - first: {fileID: -6465566751694194690, guid: d0c25e118f82abc469e106c06b6af67d,
       type: 3}
     second:
       variants: []

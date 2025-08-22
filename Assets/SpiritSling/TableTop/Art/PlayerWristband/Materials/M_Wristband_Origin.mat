@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -38,6 +38,7 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - SHADOWCASTER
+  - MOTIONVECTORS
   m_LockedProperties: :m_EnableInstancingVariants :m_DoubleSidedGI _Alpha _Blend
     _CastShadows _Cull _Distortion_Strenght _ENABLEAPPEARVFX _INVERT_DISTORTION_FOR_BACKFACES
     _Noise_Intensity _QueueControl _QueueOffset _Scrolling_Noise_Intensity _SmokeAmount
@@ -199,3 +200,4 @@ Material:
     - _Top_Color: {r: 0.9622642, g: 0.9574249, b: 0.89417946, a: 1}
     - _VFXColor: {r: 0.25769317, g: 1, b: 0.01415092, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Oculus.Interaction.Input;
+using UnityEditor;
 using UnityEngine;
 
 namespace SpiritSling.TableTop

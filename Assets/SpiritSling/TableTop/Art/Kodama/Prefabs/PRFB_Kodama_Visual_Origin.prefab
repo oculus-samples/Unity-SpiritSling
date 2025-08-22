@@ -4783,6 +4783,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5264,7 +5267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6171585150332122159, guid: 2cf15612a6173324cb48bebf6cf32c3d,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: acab2700553144d45b6c678e6f383585, type: 2}
     - target: {fileID: -5810516297428230603, guid: 2cf15612a6173324cb48bebf6cf32c3d,
@@ -6154,7 +6157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5321774662498286970, guid: 2cf15612a6173324cb48bebf6cf32c3d,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6f6a3ebb4f4e516478019845b1dae42d, type: 2}
     - target: {fileID: 5613009571790581323, guid: 2cf15612a6173324cb48bebf6cf32c3d,

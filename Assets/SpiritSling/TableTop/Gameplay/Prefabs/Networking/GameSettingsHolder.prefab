@@ -65,7 +65,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _GameSettings:
     seed: 0
-    playersCount: 0
+    showAvatars:
+      _value: 0
     timePhase: 0
     roundsBeforeCloc: 0
     isClocRandom:
@@ -75,6 +76,19 @@ MonoBehaviour:
     kodamaStartHealthPoints: 0
     kodamaMoveRange: 0
     kodamaSummonRange: 0
+    kodamaSummonPerTurn: 0
+    kodamaHasImmunity:
+      _value: 0
     slingshotStartHealthPoints: 0
     slingshotDamage: 0
     slingBallShotsPerTurn: 0
+    lootboxStartHealthPoints: 0
+    lootboxDamage: 0
+    lootboxStartCount: 0
+    lootboxMinCount: 0
+    lootBoxSpawnCountPerTurn: 0
+    lootBoxHeightDownAmount: 0
+    lootBoxHeightDownStrongAmount: 0
+    lootBoxHeightUpAmount: 0
+    lootBoxHeightUpStrongAmount: 0
+    lootBoxNormalStrongChances: 0

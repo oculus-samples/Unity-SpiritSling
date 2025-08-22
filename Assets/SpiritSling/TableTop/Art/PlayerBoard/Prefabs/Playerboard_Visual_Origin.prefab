@@ -126,6 +126,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -455,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6504243650861829148, guid: 551a0169495fd434b9cf0b9fc856c1d1,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8718afac2f056e8439bdca828a8624d9, type: 2}
     - target: {fileID: 8656338195767783809, guid: 551a0169495fd434b9cf0b9fc856c1d1,
@@ -511,7 +514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4614379130148726272, guid: a5900a9a485a6034ea534d5102575894,
         type: 3}
-      propertyPath: NetworkedBehaviours.Array.data[0]
+      propertyPath: 'NetworkedBehaviours.Array.data[0]'
       value: 
       objectReference: {fileID: 611753654716201376}
     - target: {fileID: 5137636207345770404, guid: a5900a9a485a6034ea534d5102575894,
@@ -660,6 +663,11 @@ PrefabInstance:
       propertyPath: Spatialize
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4757504074226559904, guid: 7c3c7f491a6024584b45b4d2608c2bf4,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 33252cab2f6c74448a4c38e0268f49a9, type: 3}
     - target: {fileID: 4757504074226559904, guid: 7c3c7f491a6024584b45b4d2608c2bf4,
         type: 3}
       propertyPath: m_audioClip
@@ -818,7 +826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5415378009324792042, guid: 66a9f330f6aab9e47b80cdacb463eb5b,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8718afac2f056e8439bdca828a8624d9, type: 2}
     - target: {fileID: 7585613191755060599, guid: 66a9f330f6aab9e47b80cdacb463eb5b,
