@@ -33,7 +33,7 @@
 .idea/
 
 # VS Code cache directory
-.vscode/
+.vscode/*
 
 .utmp
 
@@ -83,3 +83,7 @@ keystore-passwords.txt
 *.DS_Store
 *.bat
 Assets/.avatar_sdk_sample_assets_importer.txt
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
